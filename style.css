@@ -1,7 +1,8 @@
 :root {
-  --font-family: "Montserrat", sans-serif;
+  --font-family: "Poppins", sans-serif;
 }
-
+/*  poppings
+mudar foter*/
 * {
   margin: 0;
   padding: 0;
@@ -14,10 +15,13 @@ body {
   letter-spacing: 1px;
 }
 
+/* ################################ Global Classes ################################ */
+/* ################################ Global Classes ################################ */
+
 .card {
   width: 100vw;
   height: 100vh;
-  background-color: rgba(250, 227, 200, 0.8);
+  background-color: #ac4dc9;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -25,10 +29,18 @@ body {
   position: sticky;
   top: 0;
 }
-.card h1 {
-  padding: 200px;
+
+.title {
+  text-align: center;
+  color: white;
+  height: fit-content;
 }
-.card h2 {
+
+.card h1 {
+  padding: 20px;
+  color: white;
+}
+.content h2 {
   padding: 80px;
 }
 .card p {
@@ -36,6 +48,13 @@ body {
   padding: 20px 20%;
   width: fit-content;
   height: fit-content;
+}
+.title p {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  width: max-content;
+  padding: 0;
 }
 .card button {
   background-color: white;
@@ -52,6 +71,15 @@ body {
 .card button:hover {
   background-color: rgb(34, 34, 34);
   border: 3px solid white;
+  border-image: linear-gradient(
+    to right,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    purple
+  );
   color: white;
 }
 .content {
@@ -61,7 +89,7 @@ body {
 
 .footer {
   width: 100%;
-  background-color: black;
+  background-color: rgb(255, 255, 255);
   color: white;
   position: fixed;
   bottom: 0;
@@ -70,9 +98,31 @@ body {
   justify-content: space-around;
   align-items: center;
 }
+.footer img {
+  width: 150px;
+  height: auto;
+  padding: 5px;
+}
+.footer-img {
+  padding-left: 40px;
+}
+.footer a {
+  width: 0;
+  height: 0;
+  color: rgb(255, 255, 255);
+}
 .footer button {
   background-color: white;
   color: black;
+  border-color: linear-gradient(
+    to right,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    purple
+  );
   border: 1px solid black;
   padding: 10px;
   height: fit-content;
@@ -84,6 +134,153 @@ body {
 }
 .footer button:hover {
   background-color: rgb(34, 34, 34);
-  border: 3px solid white;
+  border: 2px white;
+  border-image: linear-gradient(
+    to right,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    purple
+  );
   color: white;
+}
+
+/* ################################ index ################################ */
+/* ################################ index ################################ */
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 40%;
+  background-color: bisque;
+  height: 200px;
+}
+header img {
+  width: 400px;
+}
+
+.header-items {
+  display: flex;
+  gap: 30px;
+  margin-right: 100px;
+}
+
+.index-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 252, 248);
+  text-align: center;
+}
+
+.index-section-titulo {
+  height: 400px;
+  margin-top: 50px;
+}
+
+.index-section-titulo h1 {
+  font-size: 42px;
+  padding-bottom: 10px;
+}
+
+.index-section-sobre {
+  height: 400px;
+  margin-top: 50px;
+}
+
+.index-section-sobre h2 {
+  font-size: 32px;
+  padding-bottom: 10px;
+}
+
+.index-section-capitulos {
+  height: fit-content;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.index-section-capitulos h2 {
+  padding-bottom: 10px;
+  font-size: 32px;
+}
+.index-section-capitulos h3 {
+  padding-top: 20px;
+}
+.index-section-capitulos button {
+  background-color: white;
+  color: black;
+  border-image: linear-gradient(
+    to right,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    purple
+  );
+  border: 1px solid;
+  padding: 10px;
+  height: fit-content;
+  text-transform: capitalize;
+  font-size: 15px;
+  border-radius: 5px;
+  margin: 10px 0 30px;
+}
+.index-section-capitulos button:hover {
+  background-color: rgb(34, 34, 34);
+  color: white;
+  cursor: pointer;
+}
+
+.index-footer {
+  height: 200px;
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: bisque;
+}
+.index-footer-img img {
+  height: 200px;
+}
+/* ################################ Capítulo 1 ################################ */
+/* ################################ Capítulo 1 ################################ */
+.capitulo-1-titulo {
+  background-color: rgb(252, 120, 120);
+}
+
+/* ################################ Capítulo 2 ################################ */
+/* ################################ Capítulo 2 ################################ */
+
+.capitulo-2-titulo {
+  background-color: rgb(255, 193, 78);
+}
+
+/* ################################ Capítulo 3 ################################ */
+/* ################################ Capítulo 3 ################################ */
+.capitulo-3-titulo {
+  background-color: #e6d863;
+}
+
+/* ################################ Capítulo 4 ################################ */
+/* ################################ Capítulo 4 ################################ */
+.capitulo-4-titulo {
+  background-color: rgb(70, 161, 70);
+}
+
+/* ################################ Capítulo 5 ################################ */
+/* ################################ Capítulo 5 ################################ */
+.capitulo-5-titulo {
+  background-color: rgb(63, 98, 253);
+}
+
+/* ################################ Capítulo 6 ################################ */
+/* ################################ Capítulo 6 ################################ */
+.capitulo-6-titulo {
+  background-color: #9356e2;
 }
