@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -12,62 +11,103 @@
       rel="stylesheet"
     />
     <title>Que Babado</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/home-page.css" />
   </head>
   <body>
-    <header>
-      <div>
-        <img
-          src="./assets/WhatsApp_Image_2023-04-07_at_21.47.14-removebg-preview.png"
-        />
-      </div>
-      <div class="header-items">
-        <h3>Sobre</h3>
-        <h3>Capitulos</h3>
-      </div>
-    </header>
-    <section>
-      <div class="index-section">
-        <div class="index-section-titulo">
-          <h1>Que Babado</h1>
-          <p>texto sobre o babado</p>
+    <div>
+      <div class="card capitulo-1-titulo">
+        <div class="title" id="no-background">
+          
         </div>
-        <div class="index-section-sobre">
-          <h2>Sobre</h2>
-          <p>texto sobre o tcc</p>
-        </div>
-        <div class="index-section-capitulos">
+      </div>
+      <div class="card content">
+        <section class="principal" id = "quebabado">
+          <h1 class="principal__titulo">Que Babado</h1>
+          <p class="principal__texto">texto sobre o babado</p>
+        </section>
+        <section class="sobre" id="sobre">
+          <h2>Sobre Nos</h2>
+          <div class="sobre__julia">
+            <img src="assets/J1V8tTmv_400x400.jpg" alt="" />
+            <div class="sobre__julia-texto">
+              <h3>Julia Facca</h3>
+              <p>Eu amo menos que o pedrinho</p>
+            </div>
+          </div>
+          <div class="sobre__oscar">
+            <div class="sobre__oscar-texto">
+              <h3>Oscar Nucci</h3>
+              <p>blaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+            </div>
+            <img src="assets/sChq0Ez7_400x400.jpg" alt="" />
+          </div>
+        </section>
+        <div class="index-section-capitulos" id="capitulos">
           <h2>Capitulos</h2>
-          <h3>capitulo 1</h3>
-          <p>sobre o capitulo 1</p>
-          <a href="capitulo-1.html"> <button>Ir para capitulo 1</button></a>
-          <h3>capitulo 2</h3>
-          <p>sobre o capitulo 2</p>
-          <a href="capitulo-2.html"> <button>Ir para capitulo 2</button></a>
-          <h3>capitulo 3</h3>
-          <p>sobre o capitulo 3</p>
-          <a href="capitulo-3.html"> <button>Ir para capitulo 3</button></a>
-          <h3>capitulo 4</h3>
-          <p>sobre o capitulo 4</p>
-          <a href="capitulo-4.html"> <button>Ir para capitulo 4</button></a>
-          <h3>capitulo 5</h3>
-          <p>sobre o capitulo 5</p>
-          <a href="capitulo-5.html"> <button>Ir para capitulo 5</button></a>
-          <h3>capitulo 6</h3>
-          <p>sobre o capitulo 6</p>
-          <a href="capitulo-6.html"> <button>Ir para capitulo 6</button></a>
+          <div class="index-section-capitulos-container">
+            <div class="index-section-capitulos-card">
+              <a
+                href="./capitulo-1.html"
+                class="rainbow-button"
+                alt="Capitulo 1"
+              ></a>
+            </div>
+            <div class="index-section-capitulos-card">
+              <a
+                href="./capitulo-2.html"
+                class="rainbow-button"
+                alt="Capitulo 2"
+              ></a>
+            </div>
+            <div class="index-section-capitulos-card">
+              <a
+                href="./capitulo-3.html"
+                class="rainbow-button"
+                alt="Capitulo 3"
+              ></a>
+            </div>
+            <div class="index-section-capitulos-card">
+              <a
+                href="./capitulo-4.html"
+                class="rainbow-button"
+                alt="Capitulo 4"
+              ></a>
+            </div>
+            <div class="index-section-capitulos-card">
+              <a
+                href="./capitulo-5.html"
+                class="rainbow-button"
+                alt="Capitulo 5"
+              ></a>
+            </div>
+            <div class="index-section-capitulos-card">
+              <a
+                href="./capitulo-6.html"
+                class="rainbow-button"
+                alt="Capitulo 6"
+              ></a>
+            </div>
+          </div>
         </div>
+        <div class="index-footer-names">
+          <h2>Julia Facca</h2>
+          <h2>Oscar Nucci</h2>
+        </div>
+      </section>
       </div>
-    </section>
-    <footer class="index-footer">
-      <div class="index-footer-img">
-        <img
-          src="./assets/WhatsApp_Image_2023-04-07_at_21.47.14-removebg-preview.png"
-        />
+    </div>
+    <div class="footer">
+      <div class="footer-image">
+        <a href="index.html"><img
+          src="./assets/Que_Babado-logo.png"
+        /></a>
       </div>
-      <div class="index-footer-names">
-        <h2>Julia</h2>
-        <h2>Oscar</h2>
+      <div class = "footer__nav">
+        <a href="#quebabado"><p>Que Babado </p>  </a>
+        <a href="#sobre"><p>Sobre </p>  </a>
+        <a href="#capitulos"> <p>Capitulos </p> </a>
       </div>
-    </footer>
+    </div>
   </body>
 </html>

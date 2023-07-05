@@ -1,0 +1,235 @@
+:root {
+  --font-family: "Poppins", sans-serif;
+}
+/*  poppings
+  mudar foter*/
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family);
+  letter-spacing: 1px;
+}
+
+/* ################################ Global Classes ################################ */
+/* ################################ Global Classes ################################ */
+
+.card {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+}
+
+.title img {
+  width: 100%;
+}
+
+.card h1 {
+  padding: 20px;
+  color: black;
+}
+.content {
+  text-align: center;
+}
+
+.principal {
+  height: 600px;
+  margin-top: 50px;
+}
+.principal__titulo {
+  font-size: 42px;
+  padding-bottom: 10px;
+}
+.principal__texto {
+  text-align: center;
+}
+.sobre {
+  display: flex;
+  flex-direction: column;
+  height: 800px;
+  margin-top: 50px;
+}
+.sobre__julia {
+  display: flex;
+  gap: 5rem;
+  margin: 5rem 0;
+}
+.sobre__oscar {
+  display: flex;
+  gap: 5rem;
+
+  margin: 5rem 0;
+}
+.sobre img {
+  border-radius: 50%;
+  width: 10rem;
+}
+
+.sobre h2 {
+  font-size: 32px;
+  padding-bottom: 10px;
+}
+
+.index-section-capitulos {
+  height: 200px;
+  box-sizing: border-box;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.index-section-capitulos-container {
+  display: flex;
+}
+
+.index-section-capitulos-card {
+  padding: 5px;
+
+  margin-right: 0.5rem;
+}
+.index-section-capitulos h2 {
+  padding-bottom: 10px;
+  font-size: 32px;
+}
+.index-section-capitulos h3 {
+  padding-top: 20px;
+}
+
+.rainbow-button {
+  width: 100px;
+  height: 50px;
+  background-image: linear-gradient(
+    90deg,
+    #6098ff 0%,
+    #fae173 49%,
+    #ff9d9d 80%,
+    #b777ff 100%
+  );
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 1rem;
+  text-decoration: none;
+  color: white;
+}
+.rainbow-button:after {
+  content: attr(alt);
+  width: 92px;
+  height: 42px;
+  border-radius: 5px;
+  padding: 2px;
+  background-color: rgb(107, 107, 107);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+.rainbow-button:hover {
+  animation: slidebg 2s linear infinite;
+}
+
+@keyframes slidebg {
+  to {
+    background-position: 20vw;
+  }
+}
+.index-footer-names:last-child {
+  margin: 77px;
+}
+
+.title p {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  width: max-content;
+  padding: 0;
+}
+.card button {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  padding: 10px;
+  height: fit-content;
+  text-transform: capitalize;
+  font-size: 25px;
+  border-radius: 5px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.card button:hover {
+  background-color: rgb(34, 34, 34);
+  border: 3px solid white;
+  border-image: linear-gradient(
+    to right,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    purple
+  );
+  color: white;
+}
+.content {
+  background-color: rgb(252, 241, 229);
+  height: fit-content;
+}
+
+.footer {
+  width: 100%;
+  background-color: rgb(17, 17, 17);
+  color: rgb(5, 5, 5);
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  height: 70px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+}
+.footer img {
+  width: 100px;
+  height: auto;
+  padding: 5px;
+}
+.footer-img {
+}
+.footer a {
+  width: 0;
+  height: 0;
+  color: rgb(255, 255, 255);
+}
+.footer__nav {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 10rem;
+}
+.footer p {
+  width: 200px;
+  height: 100px;
+  margin-left: 10px;
+  box-sizing: border-box;
+}
+/* ################################ Capítulo 1 ################################ */
+/* ################################ Capítulo 1 ################################ */
+.capitulo-1-titulo {
+  background-image: url(../assets/Banner\ Festa\ Junina\ Amarelo\ Simples.png);
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
