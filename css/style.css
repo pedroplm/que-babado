@@ -1,0 +1,46 @@
+:root {
+  --font-title: "Bowlby One SC", cursive;
+  --font-fineline: "Belanosima", sans-serif;
+  --font-paragraph: "Kantumruy Pro", sans-serif;
+}
+/*  poppings
+      mudar foter*/
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  letter-spacing: 1px;
+}
+h1 {
+  font-family: var(--font-title);
+  font-size: 54px;
+  text-transform: uppercase;
+  padding: 0.5rem;
+}
+h2 {
+  font-family: var(--font-fineline);
+  font-size: 22px;
+}
+p {
+  font-family: var(--font-paragraph);
+  font-weight: 300;
+}
+figcaption {
+  font-family: var(--font-paragraph);
+}
+
+.capitulo {
+  font-size: 32px;
+  text-transform: uppercase;
+}
+
+.capitulo-title {
+}
+
+.footer a {
+  font-family: var(--font-paragraph);
+}
