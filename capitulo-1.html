@@ -94,8 +94,11 @@
       </div>
 
 
-      <a href="./capitulo-2.html">
-        <button>proximo capítulo</button>
+      <a class = "teste"href="./capitulo-2.html">
+        <a
+        class="rainbow-button"
+        alt="Capitulo 2"
+      ></a>
       </a>
     </div>
   </div>
@@ -115,6 +118,16 @@
     </div>
   </div>
   </div>
+  <script type = "text/javascript">
+    var counter = 1;
+    setInterval(function(){
+      document.getElementById('radio' + counter).checked = true;
+      counter++;
+      if(counter > 4){
+        counter = 1;
+      }
+    }, 5000);
+  </script>
 </body>
 
 </html>
