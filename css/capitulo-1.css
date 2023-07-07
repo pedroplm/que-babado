@@ -73,6 +73,7 @@
   height: 500px;
   border-radius: 10px;
   overflow: hidden;
+  margin-bottom: 100px;
 }
 .slides {
   width: 500%;
@@ -216,7 +217,10 @@
 }
 
 /* #################################### Carrossel ####################################*/
-
+.next-chapter {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
 .rainbow-button {
   width: 200px;
   height: 80px;
