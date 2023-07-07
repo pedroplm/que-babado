@@ -41,6 +41,14 @@ figcaption {
 .capitulo-title {
 }
 
+.footer img:hover {
+  width: 105px;
+}
+
 .footer a {
   font-family: var(--font-paragraph);
+  font-weight: 500;
+}
+.footer a:hover {
+  font-weight: 900;
 }

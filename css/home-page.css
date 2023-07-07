@@ -39,6 +39,8 @@ body {
 }
 .content {
   text-align: center;
+  background-color: rgb(252, 241, 229);
+  height: fit-content;
 }
 
 .principal {
@@ -78,7 +80,14 @@ body {
   font-size: 32px;
   padding-bottom: 10px;
 }
-
+.sobre__julia-texto h3 {
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+.sobre__oscar-texto h3 {
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
 .index-section-capitulos {
   height: 200px;
   box-sizing: border-box;
@@ -145,8 +154,9 @@ body {
     background-position: 20vw;
   }
 }
+
 .index-footer-names:last-child {
-  margin: 77px;
+  margin-bottom: 120px;
 }
 
 .title p {
@@ -182,10 +192,6 @@ body {
   );
   color: white;
 }
-.content {
-  background-color: rgb(252, 241, 229);
-  height: fit-content;
-}
 
 .footer {
   width: 100%;
@@ -202,9 +208,11 @@ body {
 .footer img {
   width: 100px;
   height: auto;
-  padding: 5px;
+  margin-left: 20px;
 }
-.footer-img {
+.footer img:hover {
+  width: 105px;
+  margin-left: 15px;
 }
 .footer a {
   width: 100px;
@@ -220,10 +228,38 @@ body {
   margin-right: 10rem;
 }
 .footer p {
-  width: 200px;
-  height: 100px;
+  width: max-content;
+  height: 25px;
   margin-left: 10px;
   box-sizing: border-box;
+  font-weight: bold;
+  font-family: var(--font-family-paragraph);
+  border-bottom: 2px solid white;
+}
+.footer p:hover {
+  font-size: 17px;
+  border-bottom: 2px solid white;
+  background: linear-gradient(
+    to right,
+    #b827fc 0%,
+    #2c90fc 25%,
+    #b8fd33 50%,
+    #fec837 75%,
+    #fd1892 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  border-bottom: 3px solid transparent;
+  border-image: linear-gradient(
+    to right,
+    #b827fc 0%,
+    #2c90fc 25%,
+    #b8fd33 50%,
+    #fec837 75%,
+    #fd1892 100%
+  );
+  border-image-slice: 1;
 }
 /* ################################ Capítulo 1 ################################ */
 /* ################################ Capítulo 1 ################################ */
