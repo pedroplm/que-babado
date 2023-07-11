@@ -216,7 +216,6 @@ body {
 }
 .footer a {
   width: 100px;
-  height: 0;
   color: rgb(255, 255, 255);
 }
 .footer__nav {
@@ -226,18 +225,18 @@ body {
   justify-content: space-around;
   align-items: center;
   margin-right: 10rem;
+  padding-left: 1rem;
 }
 .footer p {
   width: max-content;
   height: 25px;
   margin-left: 10px;
   box-sizing: border-box;
-  font-weight: bold;
+  font-weight: 500;
   font-family: var(--font-family-paragraph);
   border-bottom: 2px solid white;
 }
 .footer p:hover {
-  font-size: 17px;
   border-bottom: 2px solid white;
   background: linear-gradient(
     to right,
@@ -260,6 +259,8 @@ body {
     #fd1892 100%
   );
   border-image-slice: 1;
+
+  font-weight: 600;
 }
 /* ################################ Capítulo 1 ################################ */
 /* ################################ Capítulo 1 ################################ */
