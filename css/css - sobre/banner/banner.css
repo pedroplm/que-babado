@@ -1,0 +1,39 @@
+.banner {
+  display: flex;
+  align-items: center;
+  gap: 20%;
+  background-color: var(--banner-background-color);
+  padding: 5rem;
+}
+
+.banner__text-content {
+  display: flex;
+  flex-direction: column;
+}
+.banner__text-content-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: var(--font-color-light-black);
+
+  margin-bottom: 2rem;
+}
+
+.banner__text-content-paragraph {
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+.banner__text-content-links {
+  width: 100%;
+  display: flex;
+}
+.banner__text-content-links-link {
+  padding-right: 1rem;
+}
+.banner__img-content {
+  width: 14rem;
+  border-radius: 50%;
+
+  margin-bottom: 2rem;
+}

@@ -1,0 +1,21 @@
+.about {
+  background-color: var(--bg-color-about);
+}
+.about__title {
+  font-size: 2.15rem;
+  font-weight: 700;
+  color: var(--font-color-light-black);
+  padding: 2rem 2rem 2rem 0;
+}
+.about__text {
+  color: var(--font-color-light-black);
+  font-size: 18px;
+  padding: 0.5rem 0;
+  line-height: 1.5rem;
+}
+.about__signature {
+  font-size: 2.25rem;
+  font-family: var(--cursive-letter);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}

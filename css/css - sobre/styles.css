@@ -1,0 +1,15 @@
+:root {
+  --font-family: "Raleway", sans-serif;
+  --header-background-color: #181717;
+  --banner-background-color: #fdfdfd;
+  --font-color-light-black: #464646;
+  --bg-color-about: #d4d4d1;
+  --cursive-letter: "Mea Culpa", cursive;
+}
+body {
+  font-family: var(--font-family);
+}
+.container {
+  padding-right: 6%;
+  padding-left: 6%;
+}

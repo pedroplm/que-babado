@@ -1,0 +1,13 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 5rem;
+  line-height: 1.8rem;
+  background-color: var(--header-background-color);
+  height: 150px;
+}
+.footer a:hover {
+  font-weight: bold;
+}
