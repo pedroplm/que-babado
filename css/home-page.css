@@ -203,17 +203,13 @@ body {
   height: 90px;
   justify-content: space-between;
   align-items: center;
-  gap: 3rem;
 }
 .footer img {
-  width: 100px;
-  height: auto;
-  margin-left: 20px;
-}
-.footer img:hover {
   width: 105px;
-  margin-left: 15px;
+  height: auto;
+  margin-left: 5rem;
 }
+
 .footer a {
   width: 100px;
   color: rgb(255, 255, 255);
@@ -265,7 +261,7 @@ body {
 /* ################################ Capítulo 1 ################################ */
 /* ################################ Capítulo 1 ################################ */
 .capitulo-1-titulo {
-  background-image: url(../assets/Banner\ Festa\ Junina\ Amarelo\ Simples.png);
+  background-image: url(../assets/Cópia\ de\ Banner\ Festa\ Junina\ Amarelo\ Simples.png);
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
