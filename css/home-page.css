@@ -145,6 +145,25 @@ body {
   justify-content: center;
   font-size: 12px;
 }
+.btn-1:after {
+  background-color: var(--background-capitulo-1);
+}
+.btn-2:after {
+  background-color: var(--background-capitulo-2);
+}
+.btn-3:after {
+  background-color: var(--background-capitulo-3);
+}
+.btn-4:after {
+  background-color: var(--background-capitulo-4);
+}
+.btn-5:after {
+  background-color: var(--background-capitulo-5);
+}
+.btn-6:after {
+  background-color: var(--background-capitulo-6);
+}
+
 .rainbow-button:hover {
   animation: slidebg 2s linear infinite;
 }
