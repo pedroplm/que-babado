@@ -1,39 +1,53 @@
 .banner {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: var(--banner-background-color);
-  padding: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5rem;
+}
+.banner-julia {
+    background-image: url("../../assets - sobre/banner-julia.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30rem;
+}
+.banner-oscar {
+    background-image: url("../../assets - sobre/banner-oscar.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30rem;
 }
 
 .banner__text-content {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 .banner__text-content-title {
-  font-size: 2.5rem;
-  font-weight: bold;
-  color: var(--font-color-light-black);
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--font-color-light-black);
 
-  margin-bottom: 2rem;
+    margin-bottom: 2rem;
 }
 
 .banner__text-content-paragraph {
-  font-size: 18px;
-  font-weight: 300;
-  margin-bottom: 1rem;
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 1rem;
 }
 
 .banner__text-content-links {
-  width: 100%;
-  display: flex;
+    width: 100%;
+    display: flex;
+    padding-bottom: 5rem;
 }
 .banner__text-content-links-link {
-  padding-right: 1rem;
+    padding-right: 1rem;
 }
 .banner__img-content {
-  width: 14rem;
-  border-radius: 50%;
+    width: 14rem;
+    border-radius: 50%;
 
-  margin-bottom: 2rem;
+    margin-bottom: 2rem;
 }
