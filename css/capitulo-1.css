@@ -1,320 +1,321 @@
 .capitulo {
-  font-size: 32px;
-  text-transform: uppercase;
+    font-size: 32px;
+    text-transform: uppercase;
 }
 
 .card {
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  position: sticky;
-  top: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
 }
 .card h1 {
-  font-size: 42px;
-  font-weight: bold;
-  padding: 20px;
-  color: white;
+    font-size: 42px;
+    font-weight: bold;
+    padding: 20px;
+    color: white;
 }
 
 .title {
-  text-align: center;
-  color: white;
-  height: fit-content;
+    text-align: center;
+    color: white;
+    height: fit-content;
 }
 
 .content h2 {
-  padding: 80px;
+    padding: 80px;
 }
 .card p {
-  text-align: left;
-  letter-spacing: 2px;
-  line-height: 1.75rem;
-  padding: 0.5rem;
-  width: 70%;
-  height: fit-content;
+    text-align: left;
+    letter-spacing: 2px;
+    line-height: 1.75rem;
+    padding: 0.5rem;
+    width: 70%;
+    height: fit-content;
 }
 .title p {
-  text-align: center;
-  font-size: 30px;
-  font-weight: bold;
-  width: max-content;
-  text-transform: uppercase;
-  padding: 0;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    width: max-content;
+    text-transform: uppercase;
+    padding: 0;
 }
 .card button {
-  background-color: white;
-  color: black;
-  border: 1px solid black;
-  padding: 10px;
-  height: fit-content;
-  text-transform: capitalize;
-  font-size: 25px;
-  border-radius: 5px;
-  margin-top: 100px;
-  margin-bottom: 100px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    padding: 10px;
+    height: fit-content;
+    text-transform: capitalize;
+    font-size: 25px;
+    border-radius: 5px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .content {
-  background-color: rgb(252, 241, 229);
-  height: fit-content;
+    background-color: rgb(252, 241, 229);
+    height: fit-content;
 }
 .content p {
-  margin-top: 0.4rem;
-  margin-bottom: 0.8rem;
+    margin-top: 0.4rem;
+    margin-bottom: 0.8rem;
 }
 /* #################################### Carrossel ####################################*/
 
 .slider {
-  width: 800px;
-  height: 500px;
-  border-radius: 10px;
-  overflow: hidden;
-  margin-bottom: 100px;
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 100px;
 }
 .slides {
-  width: 500%;
-  height: 500px;
-  display: flex;
+    width: 500%;
+    height: 500px;
+    display: flex;
 }
 .slide img {
-  width: 800px;
-  height: 500px;
+    width: 800px;
+    height: 500px;
 }
 .slides input {
-  display: none;
+    display: none;
 }
 .slide {
-  width: 20%;
-  transition: 2s;
+    width: 20%;
+    transition: 2s;
 }
 
 /* manual slide */
 .navigation-manual {
-  position: absolute;
-  width: 800px;
-  margin-top: -40px;
-  display: flex;
-  justify-content: center;
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
 }
 .manual-btn {
-  border: 2px solid transparent;
-  border-image: linear-gradient(
-    to right,
-    #b827fc 0%,
-    #2c90fc 25%,
-    #b8fd33 50%,
-    #fec837 75%,
-    #fd1892 100%
-  );
-  border-image-slice: 1;
-  padding: 5px;
-  border-radius: 30px;
-  cursor: pointer;
-  transition: 1s;
+    border: 2px solid transparent;
+    border-image: linear-gradient(
+        to right,
+        #b827fc 0%,
+        #2c90fc 25%,
+        #b8fd33 50%,
+        #fec837 75%,
+        #fd1892 100%
+    );
+    border-image-slice: 1;
+    padding: 5px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 1s;
 }
 
 .manual-btn:not(:last-child) {
-  margin-right: 40px;
+    margin-right: 40px;
 }
 
 .manual-btn:hover {
-  background-image: linear-gradient(
-    to right,
-    #b827fc 0%,
-    #2c90fc 25%,
-    #b8fd33 50%,
-    #fec837 75%,
-    #fd1892 100%
-  );
+    background-image: linear-gradient(
+        to right,
+        #b827fc 0%,
+        #2c90fc 25%,
+        #b8fd33 50%,
+        #fec837 75%,
+        #fd1892 100%
+    );
 }
 
 #radio1:checked ~ .first {
-  margin-left: 0;
+    margin-left: 0;
 }
 #radio2:checked ~ .first {
-  margin-left: -20%;
+    margin-left: -20%;
 }
 #radio3:checked ~ .first {
-  margin-left: -40%;
+    margin-left: -40%;
 }
 #radio4:checked ~ .first {
-  margin-left: -60%;
+    margin-left: -60%;
 }
 
 /* automatic slide */
 
 .navigation-auto {
-  position: absolute;
-  display: flex;
-  width: 800px;
-  justify-content: center;
-  margin-top: 460px;
+    position: absolute;
+    display: flex;
+    width: 800px;
+    justify-content: center;
+    margin-top: 460px;
 }
 .navigation-auto div {
-  border: 2px solid transparent;
-  border-image: linear-gradient(
-    to right,
-    #b827fc 0%,
-    #2c90fc 25%,
-    #b8fd33 50%,
-    #fec837 75%,
-    #fd1892 100%
-  );
-  border-image-slice: 1;
-  padding: 5px;
-  border-radius: 30px;
-  cursor: pointer;
-  transition: 1s;
+    border: 2px solid transparent;
+    border-image: linear-gradient(
+        to right,
+        #b827fc 0%,
+        #2c90fc 25%,
+        #b8fd33 50%,
+        #fec837 75%,
+        #fd1892 100%
+    );
+    border-image-slice: 1;
+    padding: 5px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 1s;
 }
 
 .navigation-auto div:not(:last-child) {
-  margin-right: 40px;
+    margin-right: 40px;
 }
 
 #radio1:checked ~ .navigation-auto .auto-btn1 {
-  background-image: linear-gradient(
-    to right,
-    #b827fc 0%,
-    #2c90fc 25%,
-    #b8fd33 50%,
-    #fec837 75%,
-    #fd1892 100%
-  );
+    background-image: linear-gradient(
+        to right,
+        #b827fc 0%,
+        #2c90fc 25%,
+        #b8fd33 50%,
+        #fec837 75%,
+        #fd1892 100%
+    );
 }
 #radio2:checked ~ .navigation-auto .auto-btn2 {
-  background-image: linear-gradient(
-    to right,
-    #b827fc 0%,
-    #2c90fc 25%,
-    #b8fd33 50%,
-    #fec837 75%,
-    #fd1892 100%
-  );
+    background-image: linear-gradient(
+        to right,
+        #b827fc 0%,
+        #2c90fc 25%,
+        #b8fd33 50%,
+        #fec837 75%,
+        #fd1892 100%
+    );
 }
 #radio3:checked ~ .navigation-auto .auto-btn3 {
-  background-image: linear-gradient(
-    to right,
-    #b827fc 0%,
-    #2c90fc 25%,
-    #b8fd33 50%,
-    #fec837 75%,
-    #fd1892 100%
-  );
+    background-image: linear-gradient(
+        to right,
+        #b827fc 0%,
+        #2c90fc 25%,
+        #b8fd33 50%,
+        #fec837 75%,
+        #fd1892 100%
+    );
 }
 #radio4:checked ~ .navigation-auto .auto-btn4 {
-  background-image: linear-gradient(
-    to right,
-    #b827fc 0%,
-    #2c90fc 25%,
-    #b8fd33 50%,
-    #fec837 75%,
-    #fd1892 100%
-  );
+    background-image: linear-gradient(
+        to right,
+        #b827fc 0%,
+        #2c90fc 25%,
+        #b8fd33 50%,
+        #fec837 75%,
+        #fd1892 100%
+    );
 }
 
 /* #################################### Carrossel ####################################*/
 .next-chapter {
-  margin-top: 150px;
-  margin-bottom: 150px;
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 90px;
 }
 .rainbow-button {
-  width: 200px;
-  height: 80px;
-  background-image: linear-gradient(
-    90deg,
-    #6098ff 0%,
-    #fae173 49%,
-    #ff9d9d 80%,
-    #b777ff 100%
-  );
-  border-radius: 5px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-transform: uppercase;
-  font-weight: bold;
-  margin-top: 100px;
-  margin-bottom: 100px;
-  text-decoration: none;
-  color: white;
+    width: 200px;
+    height: 80px;
+    background-image: linear-gradient(
+        90deg,
+        #6098ff 0%,
+        #fae173 49%,
+        #ff9d9d 80%,
+        #b777ff 100%
+    );
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-decoration: none;
+    color: white;
 }
 
 .rainbow-button:after {
-  content: attr(alt);
-  width: 192px;
-  height: 72px;
-  border-radius: 5px;
-  padding: 2px;
-  background-color: rgb(199, 62, 62);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 18px;
-  font-family: var(--font-paragraph);
+    content: attr(alt);
+    width: 192px;
+    height: 72px;
+    border-radius: 5px;
+    padding: 2px;
+    background-color: rgb(199, 62, 62);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-family: var(--font-paragraph);
 }
 .rainbow-button:hover {
-  animation: slidebg 2s linear infinite;
+    animation: slidebg 2s linear infinite;
 }
 
 @keyframes slidebg {
-  to {
-    background-position: 20vw;
-  }
+    to {
+        background-position: 20vw;
+    }
 }
 
 .footer {
-  width: 100%;
-  background-color: rgb(206, 31, 31);
-  color: rgb(5, 5, 5);
-  position: fixed;
-  bottom: 0;
-  display: flex;
-  height: 70px;
-  justify-content: space-between;
-  align-items: center;
-  gap: 3rem;
-  font-family: var(--font-paragraph);
+    width: 100%;
+    background-color: rgb(206, 31, 31);
+    color: rgb(5, 5, 5);
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+    font-family: var(--font-paragraph);
 }
 .footer img {
-  width: 100px;
-  height: auto;
-  padding: 5px;
+    width: 100px;
+    height: auto;
+    padding: 5px;
 }
 .footer-img {
 }
 
 .footer__nav {
-  width: 70%;
-  height: 70px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  margin-right: 10rem;
-  text-align: center;
+    width: 70%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10rem;
+    text-align: center;
 }
 
 .rainbow-button-footer {
-  width: 98px;
-  height: 38px;
-  border-bottom: 2px solid white;
-  padding-bottom: 2px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: bold;
-  text-decoration: none;
-  color: white;
+    width: 98px;
+    height: 38px;
+    border-bottom: 2px solid white;
+    padding-bottom: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
 }
 
 .capitulo-1-titulo {
-  background-color: rgb(252, 120, 120);
-  background-image: url(../assets/banner-capitulo-1.png);
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
+    background-color: rgb(252, 120, 120);
+    background-image: url(../assets/banner-capitulo-1.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
