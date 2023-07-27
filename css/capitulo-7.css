@@ -24,17 +24,24 @@
 .content h2 {
     padding: 80px;
 }
+/* ################################ CORPO ################################ */
 .card p {
-    text-align: justify;
-    padding: 20px 20%;
-    width: fit-content;
+    text-align: left;
+    letter-spacing: 2px;
+    line-height: 1.75rem;
+    padding: 1rem 0.5rem 0.5rem 0.5rem;
+    width: 70%;
     height: fit-content;
+}
+.card p:first-child {
+    padding-top: 5rem;
 }
 .title p {
     text-align: center;
     font-size: 30px;
     font-weight: bold;
     width: max-content;
+    text-transform: uppercase;
     padding: 0;
 }
 .card button {
@@ -54,10 +61,70 @@
     background-color: rgb(252, 241, 229);
     height: fit-content;
 }
+.content p {
+    margin-top: 0.4rem;
+    margin-bottom: 0.8rem;
+}
+/* ################################ FIM CORPO ################################ */
 
+/* ######################## PROXIMO CAPÍTULO ######################## */
+.next-chapter {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 90px;
+}
+.rainbow-button {
+    width: 200px;
+    height: 80px;
+    background-image: linear-gradient(
+        90deg,
+        #6098ff 0%,
+        #fae173 49%,
+        #ff9d9d 80%,
+        #b777ff 100%
+    );
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-decoration: none;
+    color: white;
+
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+.rainbow-button:after {
+    content: attr(alt);
+    width: 192px;
+    height: 72px;
+    border-radius: 5px;
+    padding: 2px;
+    background-color: #8a258d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-family: var(--font-paragraph);
+}
+.rainbow-button:hover {
+    animation: slidebg 2s linear infinite;
+}
+
+@keyframes slidebg {
+    to {
+        background-position: 20vw;
+    }
+}
+
+/* ######################## FIM PROXIMO CAPÍTULO ######################## */
 .footer {
     width: 100%;
-    background-color: #4f02b3;
+    background-color: #8a258d;
     color: rgb(5, 5, 5);
     position: fixed;
     bottom: 0;
@@ -66,13 +133,12 @@
     justify-content: space-between;
     align-items: center;
     gap: 3rem;
+    font-family: var(--font-paragraph);
 }
 .footer img {
     width: 100px;
     height: auto;
     padding: 5px;
-}
-.footer-img {
 }
 
 .footer__nav {
@@ -86,7 +152,7 @@
     text-align: center;
 }
 
-.rainbow-button {
+.rainbow-button-footer {
     width: 98px;
     height: 38px;
     border-bottom: 2px solid white;
@@ -98,7 +164,6 @@
     text-decoration: none;
     color: white;
 }
-
-.capitulo-6-titulo {
-    background-color: #9356e2;
+.capitulo-7-titulo {
+    background-color: #c35cc7;
 }
