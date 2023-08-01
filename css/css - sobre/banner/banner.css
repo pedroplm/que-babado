@@ -43,6 +43,9 @@
     justify-content: center;
     padding-bottom: 5rem;
 }
+.banner__text-content-links-oscar {
+    padding-bottom: calc(5rem + 90px);
+}
 .banner__text-content-links-link {
     padding-right: 1rem;
 }
