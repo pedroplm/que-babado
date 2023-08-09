@@ -105,7 +105,7 @@
     height: 72px;
     border-radius: 5px;
     padding: 2px;
-    background-color: rgb(14, 39, 150);
+    background-color: var(--background-capitulo-5);
     display: flex;
     align-items: center;
     justify-content: center;

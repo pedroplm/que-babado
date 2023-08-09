@@ -3,13 +3,13 @@
     --font-title: "Bowlby One SC", cursive;
     --font-fineline: "Belanosima", sans-serif;
     --font-paragraph: "Poppins", sans-serif;
-    --background-capitulo-1: rgb(201, 74, 74);
-    --background-capitulo-2: rgb(255, 193, 78);
-    --background-capitulo-3: #f3dc12;
-    --background-capitulo-4: rgb(70, 161, 70);
-    --background-capitulo-5: rgb(63, 98, 253);
-    --background-capitulo-6: #9356e2;
-    --background-capitulo-7: #c35cc7;
+    --background-capitulo-1: rgb(214, 86, 86);
+    --background-capitulo-2: rgb(250, 194, 90);
+    --background-capitulo-3: #f1e364;
+    --background-capitulo-4: rgb(89, 163, 89);
+    --background-capitulo-5: rgb(83, 114, 253);
+    --background-capitulo-6: #9e69e4;
+    --background-capitulo-7: #c777ca;
 }
 /*  poppings
       mudar foter*/
@@ -55,9 +55,24 @@ figcaption {
     text-transform: uppercase;
 }
 
-.capitulo-title {
+.card-first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -1rem;
+    margin-top: 5rem;
 }
-
+.card-links {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+    right: 8%;
+}
+.card-links img {
+    width: 1.5rem;
+}
 .footer img:hover {
     width: 105px;
 }

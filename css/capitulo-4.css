@@ -102,7 +102,7 @@
     height: 72px;
     border-radius: 5px;
     padding: 2px;
-    background-color: rgb(1, 122, 1);
+    background-color: var(--background-capitulo-4);
     display: flex;
     align-items: center;
     justify-content: center;

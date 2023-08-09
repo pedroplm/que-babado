@@ -104,7 +104,7 @@
     height: 72px;
     border-radius: 5px;
     padding: 2px;
-    background-color: #8a258d;
+    background-color: var(--background-capitulo-7);
     display: flex;
     align-items: center;
     justify-content: center;
