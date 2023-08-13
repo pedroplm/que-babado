@@ -238,7 +238,6 @@ body {
 }
 
 .footer a {
-    width: 100px;
     color: rgb(255, 255, 255);
 }
 .footer__nav {
@@ -292,4 +291,36 @@ body {
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
+}
+
+@media (max-width: 600px) {
+    .capitulo-1-titulo {
+        background-size: 300% 100%;
+    }
+    .index-section-capitulos-container {
+        flex-direction: column;
+    }
+    .footer {
+        justify-content: space-around;
+        font-size: 14px;
+    }
+    .footer img {
+        width: 80px;
+        height: auto;
+        margin-left: 5px;
+    }
+    .footer__nav {
+        width: 100%;
+        align-items: center;
+        margin-right: 0;
+        padding-left: 0;
+    }
+    .footer p {
+    }
+}
+
+@media (max-width: 1080px) {
+    .index-section-capitulos-container {
+        flex-direction: column;
+    }
 }

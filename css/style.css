@@ -90,9 +90,6 @@ figcaption {
         flex-direction: column;
         gap: 0px;
     }
-    .footer {
-        display: none;
-    }
     .conta {
         padding: 0;
     }
