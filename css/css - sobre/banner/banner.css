@@ -5,7 +5,7 @@
     padding: 5rem 0 8rem;
 }
 .banner-julia {
-    background-image: url("../../assets - sobre/banner-julia.png");
+    background-image: url("../../assets-sobre/banner-julia.png");
     background-position: center;
     background-size: cover;
     background-color: var(--bg-color-about);
@@ -13,7 +13,7 @@
     height: 30rem;
 }
 .banner-oscar {
-    background-image: url("../../assets - sobre/banner-oscar.png");
+    background-image: url("../../assets-sobre/banner-oscar.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
