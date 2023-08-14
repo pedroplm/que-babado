@@ -17,7 +17,7 @@ header {
 }
 .header__nav {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
 }
 .header__nav-item {
@@ -35,4 +35,10 @@ header {
 }
 .header__nav-item-container {
     font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    .header__nav-item img {
+        display: none;
+    }
 }

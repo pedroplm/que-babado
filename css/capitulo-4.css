@@ -166,3 +166,77 @@
 .capitulo-4-titulo {
     background-color: rgb(70, 161, 70);
 }
+
+@media (max-width: 1024px) {
+    .footer {
+        width: 100%;
+        color: rgb(5, 5, 5);
+        position: fixed;
+        bottom: 0;
+        display: flex;
+        height: 70px;
+        justify-content: space-around;
+        align-items: space-around;
+        gap: 3rem;
+        font-family: var(--font-paragraph);
+    }
+    .footer img {
+        width: 100px;
+        height: auto;
+        padding: 5px;
+    }
+
+    .footer__nav {
+        width: 70%;
+        height: 70px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 5rem;
+        text-align: center;
+        gap: 1rem;
+    }
+}
+@media (max-width: 800px) {
+    .footer {
+        width: 100%;
+        color: rgb(5, 5, 5);
+        position: fixed;
+        bottom: 0;
+        display: flex;
+        height: 70px;
+        justify-content: space-around;
+        align-items: space-around;
+        gap: 0rem;
+        font-family: var(--font-paragraph);
+    }
+    .footer img {
+        display: none;
+        width: 80px;
+        height: auto;
+        padding: 5px;
+    }
+
+    .footer__nav {
+        width: 70%;
+        height: 70px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin-right: 5rem;
+        text-align: center;
+        gap: 0.5rem;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 600px) {
+    .footer {
+        display: none;
+    }
+    .container {
+        padding: 0;
+    }
+}

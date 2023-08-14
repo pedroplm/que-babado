@@ -8,6 +8,7 @@
     background-image: url("../../assets - sobre/banner-julia.png");
     background-position: center;
     background-size: cover;
+    background-color: var(--bg-color-about);
     background-repeat: no-repeat;
     height: 30rem;
 }
@@ -54,4 +55,30 @@
     border-radius: 50%;
 
     margin-bottom: 2rem;
+}
+
+@media (max-width: 600px) {
+    .banner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 2rem;
+        padding-top: 0;
+    }
+    .banner-julia {
+        background-image: url("../../assets-sobre/banner-julia.png");
+        background-position: center;
+        background-size: 100%;
+        background-color: var(--bg-color-about);
+        background-repeat: no-repeat;
+        height: 10rem;
+    }
+    .banner-oscar {
+        background-image: url("../../assets-sobre/banner-oscar.png");
+        background-position: center;
+        background-size: 100%;
+        background-color: var(--bg-color-about);
+        background-repeat: no-repeat;
+        height: 10rem;
+    }
 }

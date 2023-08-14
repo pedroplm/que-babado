@@ -295,27 +295,24 @@ body {
 
 @media (max-width: 600px) {
     .capitulo-1-titulo {
-        background-size: 300% 100%;
+        background-size: 350% 100%;
     }
     .index-section-capitulos-container {
         flex-direction: column;
+        padding-bottom: 90px;
     }
     .footer {
         justify-content: space-around;
         font-size: 14px;
     }
     .footer img {
-        width: 80px;
-        height: auto;
-        margin-left: 5px;
+        display: none;
     }
     .footer__nav {
         width: 100%;
         align-items: center;
         margin-right: 0;
         padding-left: 0;
-    }
-    .footer p {
     }
 }
 

@@ -325,3 +325,113 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+@media (max-width: 1024px) {
+    .footer {
+        justify-content: space-around;
+        align-items: space-around;
+        gap: 3rem;
+    }
+    .footer img {
+        width: 100px;
+        height: auto;
+        padding: 5px;
+    }
+
+    .footer__nav {
+        width: 70%;
+        height: 70px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 5rem;
+        text-align: center;
+        gap: 1rem;
+    }
+}
+@media (max-width: 800px) {
+    .slider {
+        width: 90%;
+        height: 300px;
+        border-radius: 10px;
+        overflow: hidden;
+        margin-bottom: 100px;
+    }
+    .slides {
+        width: 500%;
+        height: 400px;
+        display: flex;
+    }
+
+    .slides input {
+        display: none;
+    }
+    .slide {
+        width: 20%;
+        transition: 2s;
+    }
+    .slide img {
+        width: 100%;
+        height: 400px;
+    }
+    .navigation-manual {
+        display: none;
+    }
+    .navigation-auto {
+        position: relative;
+        right: 50%;
+        left: 50%;
+        display: flex;
+        width: 300px;
+        justify-content: center;
+        margin-top: 250px;
+    }
+    .footer {
+        width: 100%;
+        background-color: rgb(206, 31, 31);
+        color: rgb(5, 5, 5);
+        position: fixed;
+        bottom: 0;
+        display: flex;
+        height: 70px;
+        justify-content: space-around;
+        align-items: space-around;
+        gap: 0rem;
+        font-family: var(--font-paragraph);
+    }
+    .footer img {
+        display: none;
+        width: 80px;
+        height: auto;
+        padding: 5px;
+    }
+
+    .footer__nav {
+        width: 70%;
+        height: 70px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin-right: 5rem;
+        text-align: center;
+        gap: 0.5rem;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 600px) {
+    .rainbow-button {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .rainbow-button:last-child {
+        margin-top: 10px;
+    }
+    .footer {
+        display: none;
+    }
+    .container {
+        padding: 0;
+    }
+}

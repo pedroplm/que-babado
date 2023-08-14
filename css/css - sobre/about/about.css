@@ -27,3 +27,9 @@
     padding-top: 2rem;
     padding-bottom: calc(90px + 2rem);
 }
+
+@media (max-width: 800px) {
+    .about__text {
+        font-size: 24px;
+    }
+}

@@ -85,15 +85,40 @@ figcaption {
     font-weight: 900;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     .next-chapter {
         flex-direction: column;
         gap: 0px;
     }
+}
+@media (max-width: 600px) {
+    .card-first {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+        margin-top: 1rem;
+    }
+    .card-links {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 2rem;
+        right: -25%;
+    }
+    .card-links img {
+        width: 1rem;
+    }
+
     .conta {
         padding: 0;
     }
     .test a {
         height: 90px;
+    }
+    .container {
+        padding: 0;
     }
 }
