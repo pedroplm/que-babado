@@ -295,7 +295,7 @@ body {
 
 @media (max-width: 600px) {
     .capitulo-1-titulo {
-        background-size: 350% 100%;
+        background-image: url(../assets/banner-home-page-mobile.jpg);
     }
     .index-section-capitulos-container {
         flex-direction: column;
