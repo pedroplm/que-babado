@@ -198,10 +198,6 @@
     }
 }
 @media (max-width: 800px) {
-    .rainbow-button {
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
     .rainbow-button:last-child {
         margin-top: 10px;
     }
@@ -240,6 +236,10 @@
 @media (max-width: 600px) {
     .footer {
         display: none;
+    }
+    .rainbow-button {
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
     .container {
         padding: 0;
