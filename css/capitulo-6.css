@@ -132,8 +132,9 @@
     height: 70px;
     justify-content: space-between;
     align-items: center;
-    gap: 3rem;
+    gap: 2rem;
     font-family: var(--font-paragraph);
+    padding-left: 4rem;
 }
 .footer img {
     width: 100px;
@@ -142,7 +143,7 @@
 }
 
 .footer__nav {
-    width: 70%;
+    width: 80%;
     height: 70px;
     display: flex;
     flex-direction: row;
@@ -242,5 +243,13 @@
     }
     .container {
         padding: 0;
+    }
+}
+@media (min-width:900px){
+    .next-chapter{
+        display:none;
+    }
+    .content p {
+        padding-bottom: 90px;
     }
 }
