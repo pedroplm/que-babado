@@ -14,15 +14,14 @@
     color: white;
     height: fit-content;
 }
-
+.capitulo-fineline{
+    font-size: 28px;
+}
 .card h1 {
-    font-size: 42px;
+    font-size: 44px;
     font-weight: bold;
     padding: 20px;
     color: white;
-}
-.content h2 {
-    padding: 80px;
 }
 /* ################################ CORPO ################################ */
 .card p {
@@ -44,6 +43,11 @@
     text-transform: uppercase;
     padding: 0;
 }
+.card-subtitle{
+    text-align: left;
+    font-size: 20px;
+    font-weight: 500;
+}
 .card button {
     background-color: white;
     color: black;
@@ -62,8 +66,14 @@
     height: fit-content;
 }
 .content p {
-    margin-top: 0.4rem;
-    margin-bottom: 0.8rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.4rem;
+}
+.content p:last {
+    margin-bottom: 120px;
+}
+#last {
+    margin-bottom: 120px;
 }
 /* ################################ FIM CORPO ################################ */
 
@@ -167,6 +177,9 @@
 }
 .capitulo-6-titulo {
     background-color: #9356e2;
+}
+.ultimo-p{
+    margin-bottom: 90px;
 }
 
 @media (max-width: 1024px) {

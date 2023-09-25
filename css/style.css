@@ -73,9 +73,13 @@ figcaption {
 .card-links img {
     width: 1.5rem;
 }
+.ultimo-p{
+    margin-bottom: 90px;
+}
 .footer img:hover {
     width: 105px;
 }
+
 
 .footer a {
     font-family: var(--font-paragraph);
