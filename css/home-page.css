@@ -51,6 +51,11 @@ body {
     font-size: 42px;
     padding-bottom: 10px;
 }
+.principal__video{
+    width: 50rem;
+    height: 25rem;
+    border-radius: 10px;
+}
 .principal__texto {
     text-align: center;
 }
@@ -292,10 +297,19 @@ body {
     background-position: 50% 50%;
     background-repeat: no-repeat;
 }
-
+@media (max-width: 840px) {
+    .principal__video{
+        width: 35rem;
+        height: 20.5rem;
+    }
+}
 @media (max-width: 600px) {
     .capitulo-1-titulo {
         background-image: url(../assets/banner-home-page-mobile.jpg);
+    }
+    .principal__video{
+        width: 21rem;
+        height: 22.5rem;
     }
     .index-section-capitulos-container {
         flex-direction: column;
