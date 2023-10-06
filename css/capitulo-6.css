@@ -48,6 +48,13 @@
     font-size: 20px;
     font-weight: 500;
 }
+.principal__video{
+    width: 50rem;
+    height: 25rem;
+    border-radius: 10px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
 .card button {
     background-color: white;
     color: black;
@@ -72,6 +79,7 @@
 .content p:last {
     margin-bottom: 120px;
 }
+
 #last {
     margin-bottom: 120px;
 }
@@ -211,6 +219,10 @@
         margin-right: 5rem;
         text-align: center;
         gap: 1rem;
+    }
+    .principal__video{
+        width: 35rem;
+        height: 20.5rem;
     }
 }
 @media (max-width: 800px) {
