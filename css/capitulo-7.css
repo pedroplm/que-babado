@@ -167,6 +167,10 @@
 }
 .capitulo-7-titulo {
     background-color: #c35cc7;
+    background-image: url(../assets/banner-capitulo-7.png);
+    background-position: 50% 50%;
+    background-size:cover;
+    background-repeat: no-repeat;
 }
 
 @media (max-width: 1024px) {
