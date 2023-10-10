@@ -55,6 +55,9 @@ body {
 .principal__titulo-paragrafo{
     text-align: left;
     margin-top: 0.8rem;
+    margin-left:5rem;
+    margin-right: 5rem;
+    
 }
 .principal__video{
     width: 60rem;
