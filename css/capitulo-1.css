@@ -147,6 +147,9 @@
 #radio4:checked ~ .first {
     margin-left: -60%;
 }
+#radio5:checked ~ .first {
+    margin-left: -80%;
+}
 
 /* automatic slide */
 
@@ -209,6 +212,16 @@
     );
 }
 #radio4:checked ~ .navigation-auto .auto-btn4 {
+    background-image: linear-gradient(
+        to right,
+        #b827fc 0%,
+        #2c90fc 25%,
+        #b8fd33 50%,
+        #fec837 75%,
+        #fd1892 100%
+    );
+}
+#radio5:checked ~ .navigation-auto .auto-btn5 {
     background-image: linear-gradient(
         to right,
         #b827fc 0%,

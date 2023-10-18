@@ -77,7 +77,7 @@ figcaption {
     margin-bottom: 90px;
 }
 .footer img:hover {
-    width: 105px;
+    opacity: 0.8;
 }
 
 
