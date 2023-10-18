@@ -65,6 +65,13 @@
     margin-top: 0.4rem;
     margin-bottom: 0.8rem;
 }
+.legenda{
+    padding: 3px;
+    color: gray;
+    font-size: small;
+    text-decoration: underline;
+    font-family: var(--font-paragraph);
+}
 /* ################################ FIM CORPO ################################ */
 /* ######################## PROXIMO CAPÍTULO ######################## */
 .next-chapter {

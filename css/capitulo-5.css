@@ -66,7 +66,347 @@
     margin-top: 0.4rem;
     margin-bottom: 0.8rem;
 }
+.content__img{
+    width: 400px;
+}
+#last {
+    margin-bottom: 120px;
+}
 /* ################################ FIM CORPO ################################ */
+/* #################################### INICIO SEGUNDO CARROSSEL ####################################*/
+
+.slider {
+    width: 500px;
+    height: 600px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 200px;
+}
+.slides {
+    width: 500%;
+    height: 600px;
+    display: flex;
+}
+.slide img {
+    width: 500px;
+    height: 600px;
+}
+.slides input {
+    display: none;
+}
+.slide {
+    width: 20%;
+    transition: 2s;
+}
+
+/* manual slide */
+.navigation-manual {
+    position: absolute;
+    width: 500px;
+    margin-top: 640px;
+    display: flex;
+    justify-content: center;
+}
+.manual-btn {
+    border: 2px solid transparent;
+    border-image: linear-gradient(
+        to right,
+        #b827fc 0%,
+        #2c90fc 25%,
+        #b8fd33 50%,
+        #fec837 75%,
+        #fd1892 100%
+    );
+    border-image-slice: 1;
+    padding: 5px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:not(:last-child) {
+    margin-right: 40px;
+}
+
+.manual-btn:hover {
+    background-image: linear-gradient(
+        to right,
+        #b827fc 0%,
+        #2c90fc 25%,
+        #b8fd33 50%,
+        #fec837 75%,
+        #fd1892 100%
+    );
+}
+
+#segundoElasPorElas1:checked ~ .first {
+    margin-left: 0;
+}
+#segundoElasPorElas2:checked ~ .first {
+    margin-left: -20%;
+}
+#segundoElasPorElas3:checked ~ .first {
+    margin-left: -40%;
+}
+#segundoElasPorElas4:checked ~ .first {
+    margin-left: -60%;
+}
+#segundoElasPorElas5:checked ~ .first {
+    margin-left: -80%;
+}
+#segundoElasPorElas6:checked ~ .first {
+    margin-left: -100%;
+}
+#segundoElasPorElas7:checked ~ .first {
+    margin-left: -120%;
+}
+#segundoElasPorElas8:checked ~ .first {
+    margin-left: -140%;
+}
+#segundoElasPorElas9:checked ~ .first {
+    margin-left: -160%;
+}
+#segundoElasPorElas10:checked ~ .first {
+    margin-left: -180%;
+}
+#segundoElasPorElas11:checked ~ .first {
+    margin-left: -200%;
+}
+#segundoElasPorElas12:checked ~ .first {
+    margin-left: -220%;
+}
+#segundoElasPorElas13:checked ~ .first {
+    margin-left: -240%;
+}
+#segundoElasPorElas14:checked ~ .first {
+    margin-left: -260%;
+}
+#segundoElasPorElas15:checked ~ .first {
+    margin-left: -280%;
+}
+#segundoElasPorElas16:checked ~ .first {
+    margin-left: -300%;
+}
+#segundoElasPorElas17:checked ~ .first {
+    margin-left: -320%;
+}
+#segundoElasPorElas18:checked ~ .first {
+    margin-left: -340%;
+}
+
+/* automatic slide */
+
+.navigation-auto {
+    position: absolute;
+    display: flex;
+    width: 500px;
+    justify-content: center;
+    margin-top: 640px;
+}
+.navigation-auto div {
+    border: 2px solid transparent;
+    border-image: linear-gradient(
+        to right,
+        #b827fc 0%,
+        #2c90fc 25%,
+        #b8fd33 50%,
+        #fec837 75%,
+        #fd1892 100%
+    );
+    border-image-slice: 1;
+    padding: 5px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.navigation-auto div:not(:last-child) {
+    margin-right: 40px;
+}
+
+#segundoElasPorElas1:checked ~ .navigation-auto .auto-btn1 {
+    background-image: linear-gradient(
+        to right,
+        #b827fc 0%,
+        #2c90fc 25%,
+        #b8fd33 50%,
+        #fec837 75%,
+        #fd1892 100%
+    );
+}
+#segundoElasPorElas2:checked ~ .navigation-auto .auto-btn2 {
+    background-image: linear-gradient(
+        to right,
+        #b827fc 0%,
+        #2c90fc 25%,
+        #b8fd33 50%,
+        #fec837 75%,
+        #fd1892 100%
+    );
+}
+#segundoElasPorElas3:checked ~ .navigation-auto .auto-btn3 {
+    background-image: linear-gradient(
+        to right,
+        #b827fc 0%,
+        #2c90fc 25%,
+        #b8fd33 50%,
+        #fec837 75%,
+        #fd1892 100%
+    );
+}
+#segundoElasPorElas4:checked ~ .navigation-auto .auto-btn4 {
+    background-image: linear-gradient(
+        to right,
+        #b827fc 0%,
+        #2c90fc 25%,
+        #b8fd33 50%,
+        #fec837 75%,
+        #fd1892 100%
+    );
+}
+#segundoElasPorElas5:checked ~ .navigation-auto .auto-btn5 {
+    background-image: linear-gradient(
+        to right,
+        #b827fc 0%,
+        #2c90fc 25%,
+        #b8fd33 50%,
+        #fec837 75%,
+        #fd1892 100%
+    );
+}
+#segundoElasPorElas6:checked ~ .navigation-auto .auto-btn6 {
+    background-image: linear-gradient(
+        to right,
+        #b827fc 0%,
+        #2c90fc 25%,
+        #b8fd33 50%,
+        #fec837 75%,
+        #fd1892 100%
+    );
+}
+#segundoElasPorElas7:checked ~ .navigation-auto .auto-btn7 {
+    background-image: linear-gradient(
+        to right,
+        #b827fc 0%,
+        #2c90fc 25%,
+        #b8fd33 50%,
+        #fec837 75%,
+        #fd1892 100%
+    );
+}
+#segundoElasPorElas8:checked ~ .navigation-auto .auto-btn8 {
+    background-image: linear-gradient(
+        to right,
+        #b827fc 0%,
+        #2c90fc 25%,
+        #b8fd33 50%,
+        #fec837 75%,
+        #fd1892 100%
+    );
+}
+#segundoElasPorElas9:checked ~ .navigation-auto .auto-btn9 {
+    background-image: linear-gradient(
+        to right,
+        #b827fc 0%,
+        #2c90fc 25%,
+        #b8fd33 50%,
+        #fec837 75%,
+        #fd1892 100%
+    );
+}
+#segundoElasPorElas10:checked ~ .navigation-auto .auto-btn10 {
+    background-image: linear-gradient(
+        to right,
+        #b827fc 0%,
+        #2c90fc 25%,
+        #b8fd33 50%,
+        #fec837 75%,
+        #fd1892 100%
+    );
+}
+#segundoElasPorElas11:checked ~ .navigation-auto .auto-btn11 {
+    background-image: linear-gradient(
+        to right,
+        #b827fc 0%,
+        #2c90fc 25%,
+        #b8fd33 50%,
+        #fec837 75%,
+        #fd1892 100%
+    );
+}
+#segundoElasPorElas12:checked ~ .navigation-auto .auto-btn12 {
+    background-image: linear-gradient(
+        to right,
+        #b827fc 0%,
+        #2c90fc 25%,
+        #b8fd33 50%,
+        #fec837 75%,
+        #fd1892 100%
+    );
+}
+#segundoElasPorElas13:checked ~ .navigation-auto .auto-btn13 {
+    background-image: linear-gradient(
+        to right,
+        #b827fc 0%,
+        #2c90fc 25%,
+        #b8fd33 50%,
+        #fec837 75%,
+        #fd1892 100%
+    );
+}
+#segundoElasPorElas14:checked ~ .navigation-auto .auto-btn14 {
+    background-image: linear-gradient(
+        to right,
+        #b827fc 0%,
+        #2c90fc 25%,
+        #b8fd33 50%,
+        #fec837 75%,
+        #fd1892 100%
+    );
+}
+#segundoElasPorElas15:checked ~ .navigation-auto .auto-btn15 {
+    background-image: linear-gradient(
+        to right,
+        #b827fc 0%,
+        #2c90fc 25%,
+        #b8fd33 50%,
+        #fec837 75%,
+        #fd1892 100%
+    );
+}
+#segundoElasPorElas16:checked ~ .navigation-auto .auto-btn16 {
+    background-image: linear-gradient(
+        to right,
+        #b827fc 0%,
+        #2c90fc 25%,
+        #b8fd33 50%,
+        #fec837 75%,
+        #fd1892 100%
+    );
+}
+#segundoElasPorElas17:checked ~ .navigation-auto .auto-btn17 {
+    background-image: linear-gradient(
+        to right,
+        #b827fc 0%,
+        #2c90fc 25%,
+        #b8fd33 50%,
+        #fec837 75%,
+        #fd1892 100%
+    );
+}
+#segundoElasPorElas18:checked ~ .navigation-auto .auto-btn18 {
+    background-image: linear-gradient(
+        to right,
+        #b827fc 0%,
+        #2c90fc 25%,
+        #b8fd33 50%,
+        #fec837 75%,
+        #fd1892 100%
+    );
+}
+
+
+/* #################################### FIM Carrossel ####################################*/
 
 /* ######################## PROXIMO CAPÍTULO ######################## */
 .next-chapter {

@@ -76,6 +76,11 @@ figcaption {
 .ultimo-p{
     margin-bottom: 90px;
 }
+.ancor-to-personal-page {
+    text-decoration: underline;
+    font-weight: 400;
+}
+
 .footer img:hover {
     opacity: 0.8;
 }

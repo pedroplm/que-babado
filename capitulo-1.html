@@ -209,48 +209,49 @@
                     Giancarlo Spizzirri
                 </p>
                 <!-- image slider -->
-                <div class="slider">
-                    <div class="slides">
-                        <!-- radio buttons start -->
-                        <input type="radio" name="radio-btn" id="radio1" />
-                        <input type="radio" name="radio-btn" id="radio2" />
-                        <input type="radio" name="radio-btn" id="radio3" />
-                        <input type="radio" name="radio-btn" id="radio4" />
-                        <input type="radio" name="radio-btn" id="radio5" />
-                        <!-- slide images start -->
-                        <div class="slide first">
-                            <img src="assets/25431.jpg" alt="a" />
+                    <div class="slider">
+                        <div class="slides">
+                            <!-- radio buttons start -->
+                            <input type="radio" name="radio-btn" id="radio1" />
+                            <input type="radio" name="radio-btn" id="radio2" />
+                            <input type="radio" name="radio-btn" id="radio3" />
+                            <input type="radio" name="radio-btn" id="radio4" />
+                            <input type="radio" name="radio-btn" id="radio5" />
+                            <!-- slide images start -->
+                            <div class="slide first">
+                                <img src="assets/25431.jpg" alt="a" />
+                            </div>
+                            <div class="slide">
+                                <img src="assets/banner-capitulo-1.png" alt="a" />
+                            </div>
+                            <div class="slide">
+                                <img src="assets/banner-capitulo-1.png" alt="a" />
+                            </div>
+                            <div class="slide">
+                                <img src="assets/banner-capitulo-1.png" alt="a" />
+                            </div>
+                            <div class="slide">
+                                <img src="assets/banner-capitulo-1.png" alt="a" />
+                            </div>
+                            <!-- automatic navigation -->
+                            <div class="navigation-auto">
+                                <div class="auto-btn1"></div>
+                                <div class="auto-btn2"></div>
+                                <div class="auto-btn3"></div>
+                                <div class="auto-btn4"></div>
+                                <div class="auto-btn5"></div>
+                            </div>
                         </div>
-                        <div class="slide">
-                            <img src="assets/banner-capitulo-1.png" alt="a" />
-                        </div>
-                        <div class="slide">
-                            <img src="assets/banner-capitulo-1.png" alt="a" />
-                        </div>
-                        <div class="slide">
-                            <img src="assets/banner-capitulo-1.png" alt="a" />
-                        </div>
-                        <div class="slide">
-                            <img src="assets/banner-capitulo-1.png" alt="a" />
-                        </div>
-                        <!-- automatic navigation -->
-                        <div class="navigation-auto">
-                            <div class="auto-btn1"></div>
-                            <div class="auto-btn2"></div>
-                            <div class="auto-btn3"></div>
-                            <div class="auto-btn4"></div>
-                            <div class="auto-btn5"></div>
+                        <!-- manual navigation -->
+                        <div class="navigation-manual">
+                            <label for="radio1" class="manual-btn"></label>
+                            <label for="radio2" class="manual-btn"></label>
+                            <label for="radio3" class="manual-btn"></label>
+                            <label for="radio4" class="manual-btn"></label>
+                            <label for="radio5" class="manual-btn"></label>
                         </div>
                     </div>
-                    <!-- manual navigation -->
-                    <div class="navigation-manual">
-                        <label for="radio1" class="manual-btn"></label>
-                        <label for="radio2" class="manual-btn"></label>
-                        <label for="radio3" class="manual-btn"></label>
-                        <label for="radio4" class="manual-btn"></label>
-                        <label for="radio5" class="manual-btn"></label>
-                    </div>
-                </div>
+                 <!-- image slider end -->
                 <div class="next-chapter">
                     <a class="teste">
                         <a
@@ -268,6 +269,7 @@
                     </a>
                 </div>
             </div>
+           
         </div>
         <div class="footer">
             <div class="footer-image">
@@ -326,15 +328,6 @@
                 >
             </div>
         </div>
-        <script type="text/javascript">
-            var counter = 1;
-            setInterval(function () {
-                document.getElementById("radio" + counter).checked = true;
-                counter++;
-                if (counter > 5) {
-                    counter = 1;
-                }
-            }, 5000);
-        </script>
+        <script src="./scripts.js"></script>
     </body>
 </html>

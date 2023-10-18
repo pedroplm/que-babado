@@ -67,7 +67,11 @@
     margin-top: 100px;
     margin-bottom: 100px;
 }
-
+.ancor-to-personal-page {
+    text-decoration: underline;
+    font-weight: 400;
+    color:#4f02b3;
+}
 .content {
     background-color: rgb(252, 241, 229);
     height: fit-content;
