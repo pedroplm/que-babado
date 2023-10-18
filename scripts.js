@@ -9,11 +9,3 @@ setInterval(function () {
     }, 5000);
 
 //elas por elas 2
-var counter2 = 1
-setInterval(function () {
-        document.getElementById("segundoElasPorElas" + counter2).checked = true;
-            counter2++;
-            if (counter2 > 18) {
-                    counter2 = 1;
-            }  
-    }, 5000);
