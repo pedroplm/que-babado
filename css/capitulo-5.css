@@ -105,6 +105,7 @@
     width: 500px;
     margin-top: 640px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 .manual-btn {
@@ -208,6 +209,7 @@
     position: absolute;
     display: flex;
     width: 500px;
+    flex-wrap: wrap;
     justify-content: center;
     margin-top: 640px;
 }
@@ -594,5 +596,29 @@
 @media (min-width:900px){
     .next-chapter{
         display:none;
+    }
+}
+@media (max-width: 900px) {
+    .hamburger-menu{
+        display: flex;
+    }
+    /* hamburger menu especific COLORS*/
+    .hamburger-menu:has(input:checked)::before {
+        background-color: var(--background-capitulo-5);
+    }
+    .hamburger-menu:has(input:checked)::after {
+        background-color: var(--background-capitulo-5);
+    }
+    .hamburger-menu input:checked{
+        background-color: var(--background-capitulo-5);
+    }
+    .sidebar {
+        display: flex;
+        justify-content: space-around;
+        /* hamburger menu especific COLORS*/
+        background-color: rgb(180, 193, 253, 0.5);
+    }
+    .footer{
+        display: none;
     }
 }

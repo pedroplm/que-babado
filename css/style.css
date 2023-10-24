@@ -10,6 +10,12 @@
     --background-capitulo-5: rgb(180, 193, 253);
     --background-capitulo-6: #d0aae6;
     --background-capitulo-7: #e6aad2;
+    --bar-width: 40px;
+     --bar-height: 4px;
+     --hamburger-gap:6px;
+     --animation-timing: 200ms ease-in-out;
+     --toggle-on: white;
+     --toggle-of: black;
 }
 /*  poppings
       mudar foter*/
@@ -21,7 +27,7 @@
 }
 
 body {
-    letter-spacing: 1px;
+    letter-spacing: 0.2px;
 }
 .container {
     padding: 0 5rem;
@@ -81,10 +87,81 @@ figcaption {
     font-weight: 400;
 }
 
+.hamburger-menu{
+    display: none;
+    --x-width: calc(var(--hamburger-gap) * 1.41421356237);
+    flex-direction: column;
+    gap: var(--hamburger-gap);
+    width: max-content;
+    position: fixed;
+    z-index: 2;
+    top: 20px;
+    left: 90%;
+    cursor: pointer;
+}
+.hamburger-menu::before, .hamburger-menu::after, .hamburger-menu input{
+    content: "";
+    width: var(--bar-width);
+    height: var(--bar-height);
+    background-color: var(--toggle-of);
+    border-radius: 99999px;
+    transform-origin: left center;
+    transition: opacity var(--animation-timing), width var(--animation-timing);
+}
+
+.hamburger-menu input{
+    appearance: none;
+    outline: none;
+    pointer-events: none;
+}
+
+.hamburger-menu:has(input:checked)::before {
+    background-color: var(--toggle-on);
+}
+.hamburger-menu:has(input:checked)::after {
+    background-color: var(--toggle-on);
+}
+.hamburger-menu input:checked{
+    background-color: var(--toggle-on);
+}
+
+.sidebar {
+    transition: translate 560ms ease-in-out;
+    translate: 100%;
+    margin-top: 4rem;
+    min-width: 10rem;
+    position: fixed;
+    left: 100%;
+    z-index: 2;
+    height: 400px;
+    display: none;
+    background-color: #d0aae683;
+    border-radius: 5px;
+    padding: 20px;
+    gap: 1rem;
+}
+.sidebar-container{
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+}
+.sidebar-items {
+    font-size: 24px;
+    font-family: var(--font-paragraph);
+    text-align: center;
+}
+.sidebar-items:hover {
+    opacity: 0.5;
+    color:white;
+}
+
+.hamburger-menu:has(input:checked) + .sidebar {
+    translate:-110%;
+}
+
 .footer img:hover {
     opacity: 0.8;
 }
-
 
 .footer a {
     font-family: var(--font-paragraph);

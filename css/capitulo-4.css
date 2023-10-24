@@ -251,3 +251,27 @@
         display:none;
     }
 }
+@media (max-width: 900px) {
+    .hamburger-menu{
+        display: flex;
+    }
+    /* hamburger menu especific COLORS*/
+    .hamburger-menu:has(input:checked)::before {
+        background-color: var(--background-capitulo-4);
+    }
+    .hamburger-menu:has(input:checked)::after {
+        background-color: var(--background-capitulo-4);
+    }
+    .hamburger-menu input:checked{
+        background-color: var(--background-capitulo-4);
+    }
+    .sidebar {
+        display: flex;
+        justify-content: space-around;
+        /* hamburger menu especific COLORS*/
+        background-color: rgb(166, 204, 166, 0.5);
+    }
+    .footer{
+        display: none;
+    }
+}

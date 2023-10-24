@@ -267,3 +267,27 @@ iframe {
         margin-bottom: 90px;
     }
 }
+@media (max-width: 900px) {
+    .hamburger-menu{
+        display: flex;
+    }
+    /* hamburger menu especific COLORS*/
+    .hamburger-menu:has(input:checked)::before {
+        background-color: var(--background-capitulo-3);
+    }
+    .hamburger-menu:has(input:checked)::after {
+        background-color: var(--background-capitulo-3);
+    }
+    .hamburger-menu input:checked{
+        background-color: var(--background-capitulo-3);
+    }
+    .sidebar {
+        display: flex;
+        justify-content: space-around;
+        /* hamburger menu especific COLORS*/
+        background-color: #f7f89d8a;
+    }
+    .footer{
+        display: none;
+    }
+}
