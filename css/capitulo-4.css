@@ -166,6 +166,10 @@
 
 .capitulo-4-titulo {
     background-color: rgb(70, 161, 70);
+    background-image: url(../assets/banner-capitulo-4.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 @media (max-width: 1024px) {
