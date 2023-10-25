@@ -69,23 +69,64 @@
 .content__img{
     width: 400px;
 }
+.legenda{
+    font-family: var(--font-paragraph);
+    text-align: center;
+    font-size: 14px;
+    color: rgb(58, 58, 58);
+    margin-bottom: 2.5rem;
+}
 #last {
     margin-bottom: 120px;
 }
 /* ################################ FIM CORPO ################################ */
 /* ######################## CARROSSEL ######################## */
 
-.slider , .slider2{
+.slider{
     width: 500px;
     height: 700px;
-    margin: 5rem;
+    margin: 5rem, 5rem, 2rem, 5rem;
     position: relative;
     overflow: hidden;
     border-radius: 5px;
     box-shadow:rgba(0,0,0,0.8) 0px 0 10px;
 
 }
-.list , .list2{
+.slider2{
+    width: 900px;
+    height: 600px;
+    margin: 5rem;
+    margin-bottom: 2.5rem;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow:rgba(0,0,0,0.8) 0px 0 10px;
+    background-color: #DCD8CC;
+}
+
+.slider3{
+    width: 900px;
+    height: 600px;
+    margin: 5rem;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow:rgba(0,0,0,0.8) 0px 0 10px;
+    background-color: #DCD8CC;
+}
+
+.slider4{
+    width: 900px;
+    height: 600px;
+    margin: 5rem;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow:rgba(0,0,0,0.8) 0px 0 10px;
+    background-color: #DCD8CC;
+}
+
+.list , .list2, .list3, .list4{
     position: absolute;
     top: 0;
     left: 0;
@@ -95,13 +136,40 @@
     transition: 1.5s;
 }
 
-.list img , .list2 img{
+.list img {
     width: 500px;
     max-width: 100vw;
     height: 100%;
     object-fit: cover;
 }
-.buttons , .buttons2{
+
+.list2 img{
+    width:900px;
+    max-width: 100vw;
+    height: 100%;
+    object-fit: cover;
+    padding: 25px 50px;
+    box-sizing: border-box;
+}
+.list3 img{
+    width:900px;
+    max-width: 100vw;
+    height: 100%;
+    object-fit: cover;
+    padding: 25px 50px;
+    box-sizing: border-box;
+}
+
+.list4 img{
+    width:900px;
+    max-width: 100vw;
+    height: 100%;
+    object-fit: cover;
+    padding: 25px 50px;
+    box-sizing: border-box;
+}
+
+.buttons{
     position: absolute;
     top: 32%;
     left: 5%;
@@ -110,18 +178,77 @@
     justify-content: space-between;
     
 }
+.buttons2{
+    position: absolute;
+    top: 32%;
+    left: 1%;
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.buttons3{
+    position: absolute;
+    top: 32%;
+    left: 1%;
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.buttons4{
+    position: absolute;
+    top: 32%;
+    left: 1%;
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    
+}
 
-.buttons button, .buttons2 button{
+.buttons button {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-color: #fff5;
+    background-color: rgba(36, 35, 35, 0.459);
     color: #fff;
     border: none;
     font-family: monospace;
     font-weight: bold;
 }
-.dots , .dots2{
+
+.buttons2 button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgba(36, 35, 35, 0.247);
+    color: #fff;
+    border: none;
+    font-family: monospace;
+    font-weight: bold;
+}
+.buttons3 button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgba(36, 35, 35, 0.247);
+    color: #fff;
+    border: none;
+    font-family: monospace;
+    font-weight: bold;
+}
+.buttons4 button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgba(36, 35, 35, 0.247);
+    color: #fff;
+    border: none;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.dots {
     position: absolute;
     bottom: 10px;
     color: #fff;
@@ -131,11 +258,64 @@
     display: flex;
 }
 
-.dots li , .dots2 li{
+.dots2{
+    position: absolute;
+    bottom: -10px;
+    color: #ffffff9d;
+    left: 42.5%;
+    width: fit-content;
+    padding: 20px;
+    display: flex;
+}
+.dots3{
+    position: absolute;
+    bottom: -10px;
+    color: #ffffff9d;
+    left: 45%;
+    width: fit-content;
+    padding: 20px;
+    display: flex;
+}
+.dots4{
+    position: absolute;
+    bottom: -10px;
+    color: #ffffff9d;
+    left: 42.5%;
+    width: fit-content;
+    padding: 20px;
+    display: flex;
+}
+
+.dots li {
     list-style: none;
     width: 10px;
     height: 10px;
     background-color: #fff;
+    margin: 5px;
+    border-radius: 50%;
+}
+
+.dots2 li{
+    list-style: none;
+    width: 10px;
+    height: 10px;
+    background-color: #ffffff9d;
+    margin: 5px;
+    border-radius: 50%;
+}
+.dots3 li{
+    list-style: none;
+    width: 10px;
+    height: 10px;
+    background-color: #ffffff9d;
+    margin: 5px;
+    border-radius: 50%;
+}
+.dots4 li{
+    list-style: none;
+    width: 10px;
+    height: 10px;
+    background-color: #ffffff9d;
     margin: 5px;
     border-radius: 50%;
 }
@@ -150,6 +330,17 @@
     border-radius: 5px;
     transition: .5s;
 }
+.dots3 li.active3{
+    width: 30px;
+    border-radius: 5px;
+    transition: .5s;
+}
+.dots4 li.active4{
+    width: 30px;
+    border-radius: 5px;
+    transition: .5s;
+}
+
 /* ######################## CARROSSEL ######################## */
 /* ######################## PROXIMO CAPÍTULO ######################## */
 .next-chapter {
