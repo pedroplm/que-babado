@@ -10,7 +10,7 @@ setInterval(function () {
 
 
 
-//elas por elas
+/* //elas por elas
 let list = document.querySelector('.slider .list');
 let items = document.querySelectorAll('.slider .list .item');
 let dots = document.querySelectorAll('.slider .dots li');
@@ -51,7 +51,7 @@ dots.forEach((li, key) =>{
         active = key;
         reloadSlider();
      });   
-})
+}) */
 
 //SLIDE AS CAMINHONEIRAS
 let list2 = document.querySelector('.slider2 .list2');
@@ -89,7 +89,7 @@ function reloadSlider2(){
         dots2[active2].classList.add('active2');
 }
 
-dots.forEach((li, key) =>{
+dots2.forEach((li, key) =>{
      li.addEventListener('click', function(){
         active2 = key;
         reloadSlider2();
@@ -132,7 +132,7 @@ function reloadSlider3(){
         dots3[active3].classList.add('active3');
 }
 
-dots.forEach((li, key) =>{
+dots3.forEach((li, key) =>{
      li.addEventListener('click', function(){
         active3 = key;
         reloadSlider3();
@@ -174,7 +174,7 @@ function reloadSlider4(){
         dots4[active4].classList.add('active4');
 }
 
-dots.forEach((li, key) =>{
+dots4.forEach((li, key) =>{
      li.addEventListener('click', function(){
         active4 = key;
         reloadSlider4();
