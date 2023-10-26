@@ -58,12 +58,12 @@ let list2 = document.querySelector('.slider2 .list2');
 let items2 = document.querySelectorAll('.slider2 .list2 .item');
 let dots2 = document.querySelectorAll('.slider2 .dots2 li');
 let prev2 = document.getElementById('prev2');
-let next2 = document.getElementById('next2');
+const next2 = document.getElementById('next2');
 
 let active2 = 0;
 let lengthItems2 = items2.length - 1;
 
-next2.onclick = function (){
+next2.onclick = function() {
         if (active2 + 1 > lengthItems2){
                 active2 = 0;
         } else {
@@ -95,6 +95,7 @@ dots2.forEach((li, key) =>{
         reloadSlider2();
      });   
 })
+
 
 //elas por elas3
 let list3 = document.querySelector('.slider3 .list3');
@@ -180,3 +181,4 @@ dots4.forEach((li, key) =>{
         reloadSlider4();
      });   
 })
+
