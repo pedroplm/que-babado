@@ -1,6 +1,15 @@
 :root {
     --font-family: "Poppins", sans-serif;
 }
+::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(
+        18deg,
+        #6098ff 0%,
+        #fae173 49%,
+        #ff9d9d 80%,
+        #b777ff 100%
+    );
+}
 /*  poppings
   mudar foter*/
 * {
