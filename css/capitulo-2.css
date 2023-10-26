@@ -68,6 +68,11 @@
     margin-top: 0.4rem;
     margin-bottom: 0.8rem;
 }
+.ancor-to-personal-page {
+    text-decoration: underline;
+    font-weight: 400;
+    color:rgb(231, 127, 41);
+}
 .next-chapter {
     display: flex;
     gap: 2rem;

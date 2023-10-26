@@ -66,6 +66,11 @@
     background-color: rgb(252, 241, 229);
     height: fit-content;
 }
+.ancor-to-personal-page {
+    text-decoration: underline;
+    font-weight: 400;
+    color:#b11c5a;
+}
 .content p {
     margin-top: 0.4rem;
     margin-bottom: 0.8rem;

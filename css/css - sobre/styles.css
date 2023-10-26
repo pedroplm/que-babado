@@ -8,6 +8,26 @@
     --bg-color-about: rgb(252, 241, 229);
     --cursive-letter: "Mea Culpa", cursive;
 }
+::-webkit-scrollbar{
+    width: 0.5vw;
+    background: rgba(0, 0, 0, 0.747);
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.582);
+}
+
+::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(
+        18deg,
+        #6098ff 0%,
+        #fae173 49%,
+        #ff9d9d 80%,
+        #b777ff 100%
+    );
+    border-radius: 100vw;
+}
+
 body {
     font-family: var(--font-family);
 }
