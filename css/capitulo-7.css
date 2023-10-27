@@ -75,6 +75,9 @@
     margin-top: 0.4rem;
     margin-bottom: 0.8rem;
 }
+.video-imprensa-gay{
+    border-radius: 10px;
+}
 #last {
     margin-bottom: 400px;
 }
@@ -260,6 +263,9 @@
     }
     .container {
         padding: 0;
+    }
+    .video-imprensa-gay{
+        width: 60%;
     }
 }
 @media (min-width:900px){
