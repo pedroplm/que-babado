@@ -179,9 +179,7 @@
     color: rgb(58, 58, 58);
     margin-bottom: 3rem;
 }
-.video-imprensa-gay{
-    border-radius: 10px;
-}
+
 
 /* ################################ FIM CORPO ################################ */
 
@@ -420,9 +418,7 @@
     .container {
         padding: 0;
     }
-    .video-imprensa-gay{
-        width: 60%;
-    }
+    
 }
 @media (min-width:900px){
     .next-chapter{
