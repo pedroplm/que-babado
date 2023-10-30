@@ -327,6 +327,9 @@ body {
     background-position: 50% 50%;
     background-repeat: no-repeat;
 }
+
+    
+
 @media (max-width: 1080px) {
     .index-section-capitulos-container {
         flex-direction: column;
@@ -338,8 +341,8 @@ body {
 }
 @media (min-width: 1080px) {
     .rainbow-button {
-        width: 90px;
-        height: 60px;
+        width: 100px;
+        height: 70px;
         background-image: linear-gradient(
             90deg,
             #6098ff 0%,
@@ -360,8 +363,8 @@ body {
     }
     .rainbow-button:after {
         content: attr(alt);
-        width: 82px;
-        height: 52px;
+        width: 92px;
+        height: 62px;
         border-radius: 5px;
         padding: 2px;
         display: flex;
