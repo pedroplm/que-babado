@@ -35,8 +35,8 @@
 /* ################################ CORPO ################################ */
 .card p {
     text-align: left;
-    letter-spacing: 2px;
-    line-height: 1.75rem;
+    letter-spacing: 0.5px;
+    line-height: 1.5rem;
     padding: 1rem 0.5rem 0.5rem 0.5rem;
     width: 70%;
     height: fit-content;
@@ -76,7 +76,7 @@
 }
 .content p {
     margin-top: 0.4rem;
-    margin-bottom: 0.8rem;
+    margin-bottom: 0.4rem;
 }
 /* ################################ FIM CORPO ################################ */
 

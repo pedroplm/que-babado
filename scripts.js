@@ -159,7 +159,7 @@ next4.onclick = function (){
 }
 prev4.onclick = function (){
         if (active4 - 1 < 0){
-                active4 = 3;
+                active4 = 4;
         } else {
                 active4 = active4 - 1;
         }
