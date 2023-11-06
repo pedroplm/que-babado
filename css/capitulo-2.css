@@ -28,13 +28,8 @@
 .content h2 {
     padding: 80px;
 }
-.card p {
-    text-align: left;
-    letter-spacing: 2px;
-    line-height: 1.75rem;
-    padding: 1rem 0.5rem 0.5rem 0.5rem;
-    width: 70%;
-    height: fit-content;
+#last{
+    margin-bottom: 90px;
 }
 .card p:first-child {
     padding-top: 5rem;
@@ -63,10 +58,6 @@
 .content {
     background-color: rgb(252, 241, 229);
     height: fit-content;
-}
-.content p {
-    margin-top: 0.4rem;
-    margin-bottom: 0.8rem;
 }
 .ancor-to-personal-page {
     text-decoration: underline;

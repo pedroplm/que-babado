@@ -29,14 +29,7 @@
     padding: 80px;
 }
 /* ################################ CORPO ################################ */
-.card p {
-    text-align: left;
-    letter-spacing: 2px;
-    line-height: 1.75rem;
-    padding: 1rem 0.5rem 0.5rem 0.5rem;
-    width: 70%;
-    height: fit-content;
-}
+
 .card p:first-child {
     padding-top: 5rem;
 }
@@ -70,10 +63,7 @@
     font-weight: 400;
     color:rgb(1, 122, 1);
 }
-.content p {
-    margin-top: 0.4rem;
-    margin-bottom: 0.8rem;
-}
+
 /* ################################ FIM CORPO ################################ */
 /* ######################## PROXIMO CAPÍTULO ######################## */
 .next-chapter {

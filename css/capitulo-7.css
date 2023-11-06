@@ -30,14 +30,7 @@
     padding: 80px;
 }
 /* ################################ CORPO ################################ */
-.card p {
-    text-align: left;
-    letter-spacing: 2px;
-    line-height: 1.75rem;
-    padding: 1rem 0.5rem 0.5rem 0.5rem;
-    width: 70%;
-    height: fit-content;
-}
+
 .card p:first-child {
     padding-top: 5rem;
 }
@@ -70,10 +63,6 @@
     text-decoration: underline;
     font-weight: 400;
     color:#b11c5a;
-}
-.content p {
-    margin-top: 0.4rem;
-    margin-bottom: 0.8rem;
 }
 .video-imprensa-gay{
     border-radius: 10px;

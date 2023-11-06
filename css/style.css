@@ -101,6 +101,18 @@ figcaption {
 .card-links img {
     width: 1.5rem;
 }
+.card p {
+    text-align: left;
+    letter-spacing: 0.5px;
+    line-height: 1.5rem;
+    padding: 0.5rem 0.5rem 0.5rem 0rem;
+    width: 70%;
+    height: fit-content;
+}
+.content p {
+    margin-top: 0.4rem;
+    margin-bottom: 0.2rem;
+}
 .ultimo-p{
     margin-bottom: 90px;
 }
@@ -206,7 +218,9 @@ figcaption {
     /*background-color: rgb(255, 228, 196); */
     border-radius: 100vw;
 }
-
+#above-footer {
+    margin-bottom: 90px;
+}
 @media (max-width: 800px) {
     .next-chapter {
         flex-direction: column;
