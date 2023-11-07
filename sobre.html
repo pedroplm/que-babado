@@ -21,6 +21,25 @@
 </head>
 
 <body>
+    <aside class="sidebar" id = "menu-box" style="display: none;"> 
+           
+        <nav>
+            <div class="sidebar-title-container">
+                <p class = "sidebar-title">Capitulos</p>
+                <p class = "sidebar-x" onclick="toggleMenu()">X</p>
+            </div>
+            <ul class = "sidebar-container"  >
+                <li><a class = "sidebar-items" href="/capitulo-1.html">Nasce o Babado</a></li>
+                <li><a class = "sidebar-items" href="./capitulo-2.html">Anos Dourados</a></li>
+                <li><a class = "sidebar-items" href="/capitulo-3.html">Babado nas Ruas</a></li>
+                <li><a class = "sidebar-items" href="/capitulo-4.html">Festa ou Luta</a></li>
+                <li><a class = "sidebar-items" href="./capitulo-5.html">Elas por Elas</a></li>
+                <li><a class = "sidebar-items" href="/capitulo-6.html">Depois do Fim</a></li>
+                <li><a class = "sidebar-items" href="/capitulo-7.html">Imprensa Gay</a></li>
+            </ul>
+        </nav>
+    </aside>
+    <!-- HAMBURGER MENU -->
     <header class="container">
         <div class="header__logo">
             <h1>Sobre nós</h1>
@@ -76,14 +95,13 @@
             <a href="./index.html">
                 <p>Home</p>
             </a>
+            <a type="checkbox" id = "check"><p id = "menu" onclick = "toggleMenu()">Capítulos</p></a>
             <a href="">
                 <p>Sobre Nós</p>
             </a>
-            <a href="./index.html#capitulos">
-                <p>Capítulos</p>
-            </a>
         </div>
     </div>
+    <script src="./scripts.js"></script>
 </body>
 
 </html>
