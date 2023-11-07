@@ -74,6 +74,12 @@
     color: rgb(58, 58, 58);
     margin-bottom: 3rem;
 }
+.podcast {
+    border-radius:12px;
+    width: 70%;
+    height: 352px;
+    margin-top: 2.6rem;
+}
 #last {
     margin-bottom: 120px;
 }

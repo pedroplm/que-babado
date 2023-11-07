@@ -8,7 +8,7 @@
     --background-capitulo-2: rgb(253, 198, 147);
     --background-capitulo-3: #f4f76f;
     --background-capitulo-4: rgb(166, 204, 166);
-    --background-capitulo-5: rgb(180, 193, 253);
+    --background-capitulo-5: rgb(66, 92, 204);
     --background-capitulo-6: #d0aae6;
     --background-capitulo-7: #e6aad2;
     --bar-width: 40px;
@@ -103,11 +103,17 @@ figcaption {
 }
 .card p {
     text-align: left;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.3px;
     line-height: 1.5rem;
     padding: 0.5rem 0.5rem 0.5rem 0rem;
     width: 70%;
     height: fit-content;
+}
+.p-test::first-letter {
+    font-size: 4rem;
+    font-weight: bold;
+    float: left;
+    margin: 20px 8px;
 }
 .content p {
     margin-top: 0.4rem;
@@ -167,9 +173,9 @@ figcaption {
     position: fixed;
     left: 100%;
     z-index: 2;
-    height: 400px;
+    height: 580px;
     display: none;
-    background-color: #d0aae683;
+    background-color: rgba(173, 190, 255, 0.856);
     border-radius: 5px;
     padding: 20px;
     gap: 1rem;
@@ -185,7 +191,7 @@ figcaption {
     text-align: center;
 }
 .sidebar-items:hover {
-    opacity: 0.5;
+    opacity: 0.6;
     color:white;
 }
 
@@ -218,6 +224,7 @@ figcaption {
     /*background-color: rgb(255, 228, 196); */
     border-radius: 100vw;
 }
+
 #above-footer {
     margin-bottom: 90px;
 }

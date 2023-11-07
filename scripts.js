@@ -1,3 +1,43 @@
+//homepage
+function toggleMenu() {
+        var menuBox = document.getElementById('menu-box');  
+        var menu = document.getElementById('menu');  
+
+        if(menuBox.style.display == "none") { // if is menuBox displayed, hide it
+          
+                menuBox.style.display = "flex";
+                menuBox.style.translate="110%";
+                sleep(400).then(()=>{menuBox.style.translate="-110%"});
+        }
+        else { // if is menuBox hidden, display it
+          
+                menuBox.style.translate="110%";
+                sleep(400).then(()=>{menuBox.style.display = "none"});
+                
+          
+        }
+}
+
+function sleep(ms){
+        return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 var counter = 1;
 //capitulo-1
 setInterval(function () {
