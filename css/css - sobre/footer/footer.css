@@ -35,8 +35,10 @@
     font-weight: 500;
     font-family: var(--font-paragraph);
     border-bottom: 2px solid white;
+    transition: all 1s;
 }
 .footer p:hover {
+   
     border-bottom: 2px solid white;
     background: linear-gradient(
         to right,
