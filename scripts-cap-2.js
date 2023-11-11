@@ -48,6 +48,7 @@ function toggleMenu() {
     if (menuBox.style.display == "none") {
         // if is menuBox hidden, display it
         menuBox.style.display = "flex";
+
         menuBox.style.translate = "110%";
         sleep(400).then(() => {
             menuBox.style.translate = "-110%";
@@ -59,8 +60,17 @@ function toggleMenu() {
             menuBox.style.display = "none";
         });
     }
+    
 }
+
+
 
 function sleep(ms) {
     return new Promise((resolve) => setTimeout(resolve, ms));
 }
+
+
+function myFunction() {
+    var popup = document.getElementById("myPopup");
+    popup.classList.toggle("show");
+  }
