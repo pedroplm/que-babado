@@ -39,3 +39,28 @@ dots3.forEach((li, key) => {
         reloadSlider3();
     });
 });
+
+// DICIONARIO
+
+function toggleMenu() {
+    var menuBox = document.getElementById("dictionaryBox");
+
+    if (menuBox.style.display == "none") {
+        // if is menuBox hidden, display it
+        menuBox.style.display = "flex";
+        menuBox.style.translate = "110%";
+        sleep(400).then(() => {
+            menuBox.style.translate = "-110%";
+        });
+    } else {
+        // if is menuBox displayed, hide it 
+        menuBox.style.translate = "110%";
+        sleep(400).then(() => {
+            menuBox.style.display = "none";
+        });
+    }
+}
+
+function sleep(ms) {
+    return new Promise((resolve) => setTimeout(resolve, ms));
+}
