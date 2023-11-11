@@ -73,4 +73,23 @@ function sleep(ms) {
 function myFunction() {
     var popup = document.getElementById("myPopup");
     popup.classList.toggle("show");
-  }
+}
+
+window.addEventListener("click", (event) =>{
+    var menuBox = document.getElementById("dictionaryBox");
+    var popup = document.getElementById("myPopup");
+    if (event.target.type !== "checkbox"){
+        menuBox.style.translate = "110%";
+        sleep(400).then(() => {
+            menuBox.style.display = "none";
+        });
+    }
+    if (event.target.id !== "close"){
+        popup.classList.remove("show");
+    }
+});
+
+function offAll(){
+    
+
+}
