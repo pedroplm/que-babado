@@ -82,6 +82,14 @@
         padding: 2rem;
         padding-top: 0;
     }
+    .banner-sobre-nos {
+        background-image: url("../../assets-sobre/banner\ sobre\ nós.png");
+        background-position: center;
+        background-size: 100%;
+        background-color: var(--bg-color-about);
+        background-repeat: no-repeat;
+        height: 2rem;
+    }
     .banner-julia {
         background-image: url("../../assets-sobre/banner-julia.png");
         background-position: center;
