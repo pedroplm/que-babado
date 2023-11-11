@@ -64,6 +64,98 @@
     font-weight: 400;
     color:rgb(231, 127, 41);
 }
+
+/* SLIDER */
+
+.slider3{
+    width: 900px;
+    height: 600px;
+    margin: 5rem;
+    margin-bottom: 2.5rem;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow:rgba(0,0,0,0.8) 0px 0 10px;
+    background-color: #DCD8CC;
+}
+
+.list , .list2, .list3, .list4{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    display: flex;
+    width: max-content;
+    transition: 1.5s;
+}
+
+.list3 img{
+    width:900px;
+    max-width: 100vw;
+    height: 100%;
+    object-fit: cover;
+    padding: 25px 50px;
+    box-sizing: border-box;
+}
+
+.buttons3{
+    position: absolute;
+    top: 32%;
+    left: 1%;
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.buttons3 button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgba(36, 35, 35, 0.247);
+    color: #fff;
+    border: none;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+
+.dots3{
+    position: absolute;
+    bottom: -10px;
+    color: #ffffff9d;
+    left: 45%;
+    width: fit-content;
+    padding: 20px;
+    display: flex;
+}
+
+.dots3 li{
+    list-style: none;
+    width: 10px;
+    height: 10px;
+    background-color: #ffffff9d;
+    margin: 5px;
+    border-radius: 50%;
+}
+.dots3 li.active3{
+    width: 30px;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* SLIDER */
 .next-chapter {
     display: flex;
     gap: 2rem;
@@ -198,6 +290,31 @@
         gap: 1rem;
     }
 }
+@media (max-width: 940px) {
+  
+    .slider3{
+        width: 600px;
+        height: 400px;
+        margin: 1rem;
+        margin-bottom: 2.5rem;
+       
+    }
+   
+
+    .list3 img{
+        width:600px;
+        
+    }
+    
+   
+    .buttons3{
+        top: 22%;
+    }
+   
+    .dots3{
+        left: 40%;
+    }
+}
 @media (max-width: 800px) {
     .rainbow-button:last-child {
         margin-top: 10px;
@@ -244,6 +361,24 @@
     }
     .container {
         padding: 0;
+    }
+    .slider3{
+        width: 350px;
+        height: 250px;
+        margin: 1rem;
+        margin-bottom: 2.5rem;
+       
+    }
+.list3 img{
+        width:350px;
+        padding: 2px;
+    }
+.buttons3{
+        top: 3%;
+        
+    }
+.dots3{
+        left: 30%;
     }
 }
 @media (min-width: 900px){

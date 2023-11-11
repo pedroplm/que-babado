@@ -108,18 +108,6 @@
     background-color: #DCD8CC;
 }
 
-.slider3{
-    width: 900px;
-    height: 600px;
-    margin: 5rem;
-    margin-bottom: 2.5rem;
-    position: relative;
-    overflow: hidden;
-    border-radius: 5px;
-    box-shadow:rgba(0,0,0,0.8) 0px 0 10px;
-    background-color: #DCD8CC;
-}
-
 .slider4{
     width: 900px;
     height: 600px;
@@ -268,7 +256,7 @@
     position: absolute;
     bottom: -10px;
     color: #ffffff9d;
-    left: 42.5%;
+    left: 41.5%;
     width: fit-content;
     padding: 20px;
     display: flex;

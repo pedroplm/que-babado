@@ -40,12 +40,6 @@
     text-transform: uppercase;
     padding: 0;
 }
-.card-subtitle{
-    text-align: left;
-    font-size: 20px;
-    font-weight: 500;
-    letter-spacing: 0.2;
-}
 .principal__video{
     width: 50rem;
     height: 25rem;

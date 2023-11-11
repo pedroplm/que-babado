@@ -98,7 +98,7 @@ next2.onclick = function () {
 };
 prev2.onclick = function () {
     if (active2 - 1 < 0) {
-        active2 = 3;
+        active2 = 5;
     } else {
         active2 = active2 - 1;
     }
@@ -122,47 +122,7 @@ dots2.forEach((li, key) => {
 });
 
 //elas por elas3
-let list3 = document.querySelector(".slider3 .list3");
-let items3 = document.querySelectorAll(".slider3 .list3 .item");
-let dots3 = document.querySelectorAll(".slider3 .dots3 li");
-let prev3 = document.getElementById("prev3");
-let next3 = document.getElementById("next3");
 
-let active3 = 0;
-let lengthItems3 = items3.length - 1;
-
-next3.onclick = function () {
-    if (active3 + 1 > lengthItems3) {
-        active3 = 0;
-    } else {
-        active3 = active3 + 1;
-    }
-    reloadSlider3();
-};
-prev3.onclick = function () {
-    if (active3 - 1 < 0) {
-        active3 = 1;
-    } else {
-        active3 = active3 - 1;
-    }
-    reloadSlider3();
-};
-
-function reloadSlider3() {
-    let checkLeft3 = items3[active3].offsetLeft;
-    list3.style.left = -checkLeft3 + "px";
-
-    let lastActiveDot3 = document.querySelector(".slider3 .dots3 li.active3");
-    lastActiveDot3.classList.remove("active3");
-    dots3[active3].classList.add("active3");
-}
-
-dots3.forEach((li, key) => {
-    li.addEventListener("click", function () {
-        active3 = key;
-        reloadSlider3();
-    });
-});
 /* FEMME FATALE SLIDES*/
 let list4 = document.querySelector(".slider4 .list4");
 let items4 = document.querySelectorAll(".slider4 .list4 .item");
@@ -183,7 +143,7 @@ next4.onclick = function () {
 };
 prev4.onclick = function () {
     if (active4 - 1 < 0) {
-        active4 = 4;
+        active4 = 3;
     } else {
         active4 = active4 - 1;
     }
