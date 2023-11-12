@@ -429,6 +429,28 @@
         /* hamburger menu especific COLORS*/
         background-color: #d0aae688;
     }
+    .sidebar-container-title{
+        font-size: 24px;
+        font-family: var(--font-paragraph);
+        font-weight: 400;
+    }
+    .sidebar-items-capitulos{
+        font-family: var(--font-paragraph);
+        font-weight: 400;
+        font-size: 18px;
+    }
+
+    .sidebar-container{
+        display: flex;
+        flex-direction: column;
+        gap:1.2rem;
+        margin-bottom: 2.5rem;
+    }
+    .sidebar-items {
+        font-size: 24px;
+        font-family: var(--font-paragraph);
+        text-align: center;
+    }
     .footer{
         display: none;
     }

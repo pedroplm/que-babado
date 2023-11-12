@@ -27,53 +27,52 @@
                         <a class="sidebar-items" href="/index.html">Home</a>
                     </li>
                     <li>
-                        <a class="sidebar-items" href="./index.html#capitulos"
-                            >Capitulos</a
+                        <a class="sidebar-items" href="/sobre.html"
+                            >Sobre nós</a
+                        >
+                    </li>
+                </ul> 
+                <ul class="sidebar-container">
+                    <li class = "sidebar-container-title">Capitulos</li>
+                    <li>
+                        <a class="sidebar-items-capitulos" href="./capitulo-1.html"
+                            >Nasce o Babado</a
                         >
                     </li>
                     <li>
-                        <a class="sidebar-items" href="/sobre.html"
-                            >Sobre nós</a
+                        <a class="sidebar-items-capitulos" href="./capitulo-2.html"
+                            >Anos de Ferveção</a
+                        >
+                    </li>
+                    <li>
+                        <a class="sidebar-items-capitulos" href="./capitulo-3.html"
+                            >Babado nas Ruas</a
+                        >
+                    </li>
+                    <li>
+                        <a class="sidebar-items-capitulos" href="./capitulo-4.html"
+                            >Festa e Luta</a
+                        >
+                    </li>
+                    <li>
+                        <a class="sidebar-items-capitulos" href="./capitulo-5.html"
+                            >Elas por Elas</a
+                        >
+                    </li>
+                    <li>
+                        <a class="sidebar-items-capitulos" href="./capitulo-6.html"
+                            >Depois do Fim</a
+                        >
+                    </li>
+                    <li>
+                        <a class="sidebar-items-capitulos" href="./capitulo-7.html"
+                            >Imprensa Gay</a
                         >
                     </li>
                 </ul>
             </nav>
         </aside>
         <!-- HAMBURGER MENU -->
-        <!-- DICTIONARY -->
-        <aside class="dictionary" id="dictionaryBox" style="display: none">
-            <nav>
-                <div class="dictionary-title-container">
-                    <p class="dictionary-title">Dicionário</p>
-                    <p class="dictionary-x" onclick="toggleMenu()">X</p>
-                </div>
-                <ul class="dictionary-container" id="biba-dictionary">
-                    <li><p class="dictionary-subtitles">Biba (adjetivo)</p></li>
-                    <li><p>Gíria usada para se referir a homens gays</p></li>
-                </ul>
-                <ul class="dictionary-container dunda">
-                    <li>
-                        <p class="dictionary-subtitles">Dunda (adjetivo)</p>
-                    </li>
-                    <li>
-                        <p>Gíria usada para se referir a homens gays negros</p>
-                    </li>
-                </ul>
-                <ul class="dictionary-container" id="neca-dictionary">
-                    <li>
-                        <p class="dictionary-subtitles">Neca (substantivo)</p>
-                    </li>
-                    <li>
-                        <p>
-                            Gíria usada para se referir ao órgão
-                            genital masculino
-                        </p>
-                    </li>
-                    <li></li>
-                </ul>
-            </nav>
-        </aside>
-        <!-- DICTIONARY -->
         <div>
             <div class="card capitulo-2-titulo">
                 <div class="title container">
@@ -339,6 +338,7 @@
                         <li></li>
                     </ul>
                 </div>
+                <spam class = "legenda">Edição nº11 do Babado, publicada em 1997</spam>
             <!-- carrossel -->
                 <p class="card-subtitle">Status na noite</p>
                 <p>
@@ -444,31 +444,32 @@
                     ou ainda ‘honra a cor, negão’. Da mesma forma que na
                     sociedade é passada uma imagem de que o negro não é bonito e
                     inteligente, apenas um garanhão bem-dotado, já ouvi frases
-                    ridículas das bibas como: ‘Você saiu com fulano? Mas ele é <a
+                    ridículas das bibas como: ‘Você saiu com fulano? Mas ele é 
+                    <a
                         class="popup ancor-to-personal-page"
-                        id="close"
-                        onclick="myFunction()"
-                        >dunda<span class="popuptext" id="myPopup"
+                        id="dunda"
+                        onclick="dundaFunction()"
+                        >dunda<span class="popuptext" id="dundaPopup"
                             >Dunda (adjetivo):<br />Gíria usada para se referir
                             a homens gays negros</span
-                        ></a
-                    >’. A outra
+                        >
+                    </a>’. A outra
                     <a
-                        class="ancor-to-personal-page"
-                        type="checkbox"
-                        id="bibaCheck"
-                        onclick="toggleMenu()"
-                        >biba</a
+                        class="bibapopup ancor-to-personal-page"
+                        id="biba"
+                        onclick="bibaFunction()"
+                        >biba<span class="bibapopuptext" id="bibaPopup"
+                        >Biba (adjetivo):<br />Gíria usada para se referir
+                        a homens gays</span
+                    ></a
                     >, tentando se ver livre do preconceito, imediatamente
                     responde: ‘Ah! Mas a
                     <a
-                        class="ancor-to-personal-page"
-                        type="checkbox"
-                        id="necaCheck"
-                        onclick="toggleMenu()"
-                        >neca</a
-                    >
-                    é de benzíssimo!!!’”.
+                        class="necapopup ancor-to-personal-page"
+                        id="neca"
+                        onclick="necaFunction()">neca<span class="necapopuptext" id="necaPopup"
+                        >Neca (adjetivo):<br />Gíria usada para se referir
+                        a homens gays</span></a> é de benzíssimo!!!’”.
                 </p>
                 <p>
                     Os ex-membros do Babado não sabem do paradeiro de Jairo, mas
@@ -482,6 +483,7 @@
                     src="./assets/anos-fervecao/texto-eduardo.png"
                     alt="imagem de uma pagina de jornal"
                 />
+                <spam class = "legenda">Em Negro e Gay, Eduardo Gregori entrevistou o colega de redação Jairo Silva sobre os desafios que sua identidade traziam, em 1997</spam>
                 <p class="card-subtitle">Entre cartas e conselhos</p>
                 <p>
                     Desabafos como o feito por Jairo Silva não eram incomum nas

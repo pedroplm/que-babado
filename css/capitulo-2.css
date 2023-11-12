@@ -70,7 +70,7 @@
     width: 318px;
     height: 400px;
     margin: 5rem;
-    margin-bottom: 2.5rem;
+    margin-bottom: 0.5rem;
     position: relative;
     overflow: hidden;
     border-radius: 5px;
@@ -206,96 +206,6 @@
     transition: .5s;
 }
 
-
-/* SLIDER */
-
-.dictionary {
-    transition: translate 560ms ease-in-out;
-    translate: 100%;
-    margin-top: 4rem;
-    min-width: 10rem;
-    position: fixed;
-    left: 100%;
-    z-index: 2;
-    height: 580px;
-    display: none;
-    background-color: rgba(173, 190, 255, 0.856);
-    border-radius: 5px;
-    padding: 20px;
-    gap: 1rem;
-}
-.dictionary-container{
-    display: flex;
-    flex-direction: column;
-    margin: 2rem 0;
-    gap: 10px;
-    width: 250px;
-    height: 90px;
-}
-.dictionary-items {
-    font-size: 24px;
-    font-family: var(--font-paragraph);
-    text-align: center;
-}
-.dictionary-subtitles{
-    font-size: 22px;
-}
-.dictionary-title-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 180px;
-}
-.dictionary-title {
-    margin-bottom: 25px;
-    font-size: 20px;
-    font-weight: 400;
-}
-.dictionary-x {
-    margin-bottom: 30px;
-    font-size: 30px;
-    font-weight: 400;
-    width: 50px;
-    cursor: pointer;
-}
-.dictionary-items:hover{
-    border-bottom: 2px solid white;
-    background: linear-gradient(
-        to right,
-        #b827fc 0%,
-        #2c90fc 25%,
-        #b8fd33 50%,
-        #fec837 75%,
-        #fd1892 100%
-    );
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-
-    border-bottom: 3px solid transparent;
-    border-image: linear-gradient(
-        to right,
-        #b827fc 0%,
-        #2c90fc 25%,
-        #b8fd33 50%,
-        #fec837 75%,
-        #fd1892 100%
-    );
-    border-image-slice: 1;
-    opacity: 0.9;
-    font-weight: 600;
-}
-.dictionary {
-    background-image: linear-gradient(
-        90deg,
-        rgba(0, 0, 0, 0.979) 0%,
-        rgba(0, 0, 0, 0.979) 96%
-    );
-    height: 500px;
-    transition: translate 0.8s ease-in-out;
-    translate: -110%;
-    width: 350px;
-    color: white;
-}
 .rainbow-hover{
     border-bottom: 2px solid white;
     background: linear-gradient(
@@ -323,13 +233,13 @@
     font-weight: 600;
 }
 /* Popup container */
-.popup {
+.popup , .bibapopup , .necapopup {
     position: relative;
     cursor: pointer;
   }
   
   /* The actual popup (appears on top) */
-  .popup .popuptext {
+  .popup .popuptext , .bibapopup .bibapopuptext , .necapopup .necapopuptext{
     visibility: hidden;
     width: 160px;
     background-color: #555;
@@ -345,7 +255,7 @@
   }
   
   /* Popup arrow */
-  .popup .popuptext::after {
+  .popup .popuptext::after , .bibapopup .bibapopuptext::after , .necapopup .necapopuptext::after{
     content: "";
     position: absolute;
     top: 100%;
@@ -357,7 +267,7 @@
   }
   
   /* Toggle this class when clicking on the popup container (hide and show the popup) */
-  .popup .show {
+  .popup .show , .bibapopup .show , .necapopup .show{
     visibility: visible;
     -webkit-animation: fadeIn 1s;
     animation: fadeIn 1s
@@ -659,6 +569,28 @@
         justify-content: space-around;
         /* hamburger menu especific COLORS*/
         background-color: rgb(253, 198, 147, 0.5);
+    }
+    .sidebar-container-title{
+        font-size: 24px;
+        font-family: var(--font-paragraph);
+        font-weight: 400;
+    }
+    .sidebar-items-capitulos{
+        font-family: var(--font-paragraph);
+        font-weight: 400;
+        font-size: 18px;
+    }
+
+    .sidebar-container{
+        display: flex;
+        flex-direction: column;
+        gap:1.2rem;
+        margin-bottom: 2.5rem;
+    }
+    .sidebar-items {
+        font-size: 24px;
+        font-family: var(--font-paragraph);
+        text-align: center;
     }
     .footer{
         display: none;

@@ -85,21 +85,25 @@ figcaption {
 
 .card-first {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: -1rem;
     margin-top: 5rem;
 }
 .card-links {
     position: relative;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
-    gap: 0.8rem;
-    right: 8%;
+    gap: 2rem;
+    right: -26%;
+    top: -65px;
 }
 .card-links img {
-    width: 1rem;
+    width: 1.2rem;
+}
+.card-links img:hover {
+    opacity: 0.5;
 }
 
 .card-subtitle{
@@ -193,7 +197,7 @@ figcaption {
     margin-top: 4rem;
     min-width: 10rem;
     position: fixed;
-    left: 100%;
+    left: 95%;
     z-index: 2;
     height: 580px;
     display: none;
@@ -283,6 +287,7 @@ figcaption {
         justify-content: center;
         gap: 2rem;
         right: -25%;
+        top:0;
     }
     .card-links img {
         width: 1rem;

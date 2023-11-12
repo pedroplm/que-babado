@@ -84,52 +84,35 @@ dots2.forEach((li, key) => {
     });
 });
 
-// DICIONARIO
 
-function toggleMenu() {
-    var menuBox = document.getElementById("dictionaryBox");
 
-    if (menuBox.style.display == "none") {
-        // if is menuBox hidden, display it
-        menuBox.style.display = "flex";
-
-        menuBox.style.translate = "110%";
-        sleep(400).then(() => {
-            menuBox.style.translate = "-110%";
-        });
-    } else {
-        // if is menuBox displayed, hide it 
-        menuBox.style.translate = "110%";
-        sleep(400).then(() => {
-            menuBox.style.display = "none";
-        });
-    }
-    
+function dundaFunction() {
+    var popup = document.getElementById("dundaPopup");
+    popup.classList.toggle("show");
 }
-
-
-
-function sleep(ms) {
-    return new Promise((resolve) => setTimeout(resolve, ms));
+function bibaFunction() {
+    var popup = document.getElementById("bibaPopup");
+    popup.classList.toggle("show");
 }
-
-
-function myFunction() {
-    var popup = document.getElementById("myPopup");
+function necaFunction() {
+    var popup = document.getElementById("necaPopup");
     popup.classList.toggle("show");
 }
 
+
 window.addEventListener("click", (event) =>{
-    var menuBox = document.getElementById("dictionaryBox");
-    var popup = document.getElementById("myPopup");
-    if (event.target.type !== "checkbox"){
-        menuBox.style.translate = "110%";
-        sleep(400).then(() => {
-            menuBox.style.display = "none";
-        });
+    var dunda = document.getElementById("dundaPopup");
+    var neca = document.getElementById("necaPopup");
+    var biba = document.getElementById("bibaPopup");
+    
+    if (event.target.id !== "neca"){
+        neca.classList.remove("show");
     }
-    if (event.target.id !== "close"){
-        popup.classList.remove("show");
+    if (event.target.id !== "biba"){
+        biba.classList.remove("show");
+    }
+    if (event.target.id !== "dunda"){
+        dunda.classList.remove("show");
     }
 });
 
