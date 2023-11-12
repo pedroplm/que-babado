@@ -301,3 +301,17 @@ figcaption {
         left: 85%;
     }
 }
+
+@media (max-width: 400px) {
+    .card-links {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 1rem;
+        right: -25%;
+    }
+    .card-links img {
+        width: 1rem;
+    }
+}
