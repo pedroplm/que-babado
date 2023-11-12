@@ -263,7 +263,6 @@
 /* Popup container */
 .popup {
     position: relative;
-    display: inline-block;
     cursor: pointer;
   }
   
@@ -538,7 +537,14 @@
 .dots3{
         left: 30%;
     }
+    .capitulo-title{
+        width: 350px;
+    }
+    .card h1{
+        font-size: 30px;
+    }
 }
+
 @media (min-width: 900px){
     .next-chapter{
         display: none;
