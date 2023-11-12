@@ -40,6 +40,50 @@ dots3.forEach((li, key) => {
     });
 });
 
+
+//SLIDE AS CAMINHONEIRAS
+let list2 = document.querySelector(".slider2 .list2");
+let items2 = document.querySelectorAll(".slider2 .list2 .item");
+let dots2 = document.querySelectorAll(".slider2 .dots2 li");
+let prev2 = document.getElementById("prev2");
+const next2 = document.getElementById("next2");
+
+let active2 = 0;
+let lengthItems2 = items2.length - 1;
+
+next2.onclick = function () {
+    if (active2 + 1 > lengthItems2) {
+        active2 = 0;
+    } else {
+        active2 = active2 + 1;
+    }
+    reloadSlider2();
+};
+prev2.onclick = function () {
+    if (active2 - 1 < 0) {
+        active2 = 4;
+    } else {
+        active2 = active2 - 1;
+    }
+    reloadSlider2();
+};
+
+function reloadSlider2() {
+    let checkLeft2 = items2[active2].offsetLeft;
+    list2.style.left = -checkLeft2 + "px";
+
+    let lastActiveDot2 = document.querySelector(".slider2 .dots2 li.active2");
+    lastActiveDot2.classList.remove("active2");
+    dots2[active2].classList.add("active2");
+}
+
+dots2.forEach((li, key) => {
+    li.addEventListener("click", function () {
+        active2 = key;
+        reloadSlider2();
+    });
+});
+
 // DICIONARIO
 
 function toggleMenu() {

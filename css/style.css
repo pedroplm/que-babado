@@ -99,8 +99,9 @@ figcaption {
     right: 8%;
 }
 .card-links img {
-    width: 1.2rem;
+    width: 1rem;
 }
+
 .card-subtitle{
     text-align: left;
     font-size: 20px;
@@ -285,6 +286,9 @@ figcaption {
     }
     .card-links img {
         width: 1rem;
+    }
+    .card-links:last-child {
+        width: 1.2rem;
     }
 
     .conta {

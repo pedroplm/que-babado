@@ -36,6 +36,7 @@
 
 .card p:first-child {
     padding-top: 5rem;
+    margin-bottom: 0px;
 }
 .title p {
     text-align: center;
@@ -62,6 +63,11 @@
     background-color: rgb(252, 241, 229);
     height: fit-content;
 }
+#correction{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
 .ancor-to-personal-page {
     text-decoration: underline;
     font-weight: 400;
