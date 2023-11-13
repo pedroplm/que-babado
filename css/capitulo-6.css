@@ -160,7 +160,14 @@
     margin-bottom: 3rem;
 }
 
-
+.google-drive{
+    display: none;
+    width: 350px;
+    height: 250px;
+    background-color: #fff;
+    margin-top: 2.2rem;
+    border-radius: 15px;
+}
 /* ################################ FIM CORPO ################################ */
 
 /* ######################## PROXIMO CAPÍTULO ######################## */
