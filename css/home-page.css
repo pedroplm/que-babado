@@ -589,6 +589,10 @@ body {
         font-size: 32px;
         width: 100%;
     }
+    .card h1{
+        margin-bottom:10px;
+        padding-bottom: 0px;
+    }
     .principal__titulo-paragrafo{
         text-align: left;
         line-height: 1.4rem;
@@ -602,7 +606,7 @@ body {
         
     }
     .card p {
-        width: 90%;
+        width: 120%;
     }
     .index-section-capitulos{
         display: none;
