@@ -583,7 +583,7 @@ body {
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
     .principal__titulo {
         text-align: center;
         font-size: 32px;
