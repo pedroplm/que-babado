@@ -583,7 +583,7 @@ body {
     }
 }
 
-@media (max-width: 540px) {
+@media (max-width: 600px) {
     .principal__titulo {
         text-align: center;
         font-size: 32px;
@@ -595,6 +595,14 @@ body {
         margin-top: 0.8rem;
         width: 110%;
         
+    }
+    .principal__video{
+        width: 90%;
+        height: 350px;
+        
+    }
+    .card p {
+        width: 90%;
     }
     .index-section-capitulos{
         display: none;
