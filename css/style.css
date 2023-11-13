@@ -288,13 +288,14 @@ figcaption {
     .card h1{
         font-size: 1.8rem;
         box-sizing: border-box;
+        line-height: 2.6rem;
     }
     .card h2{
         max-width: 350px;
         text-align: center;
         margin: 0 auto;
         font-size: 1.2;
-        margin-bottom: 2rem;
+        margin-bottom: 2.4rem;
     }
     .card-first {
         display: flex;
@@ -350,6 +351,7 @@ figcaption {
         max-width: 350px;
         text-align: center;
         margin: 1rem auto;
+        margin-bottom: 2.2rem;
         font-size: 1.2;
     }
     .capas-de-jornal{
