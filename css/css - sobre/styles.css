@@ -35,3 +35,8 @@ body {
     padding-right: 6%;
     padding-left: 6%;
 }
+.ancor-to-personal-page {
+    text-decoration: underline;
+    font-weight: 400;
+    cursor: pointer;
+}

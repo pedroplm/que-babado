@@ -61,7 +61,7 @@
         #fd1892 100%
     );
     border-image-slice: 1;
-
+    cursor: pointer;
     font-weight: 600;
 }
 
