@@ -85,15 +85,16 @@
     .banner-sobre-nos {
         background-image: url("../../assets-sobre/banner\ sobre\ nós.png");
         background-position: center;
-        background-size: 100%;
+        background-size: cover;
+        background-size: 150%;
         background-color: var(--bg-color-about);
         background-repeat: no-repeat;
-        height: 2rem;
+        height: 5rem;
     }
     .banner-julia {
         background-image: url("../../assets-sobre/banner-julia.png");
         background-position: center;
-        background-size: 100%;
+        background-size: 120%;
         background-color: var(--bg-color-about);
         background-repeat: no-repeat;
         height: 10rem;
@@ -101,7 +102,7 @@
     .banner-oscar {
         background-image: url("../../assets-sobre/banner-oscar.png");
         background-position: center;
-        background-size: 100%;
+        background-size: 120%;
         background-color: var(--bg-color-about);
         background-repeat: no-repeat;
         height: 10rem;

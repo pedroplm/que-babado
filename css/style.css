@@ -120,6 +120,7 @@ figcaption {
 .capas-de-jornal {
     width: 366px;
     margin: 2.2rem 0;
+    margin-bottom: 1rem;
     border-radius: 5px;
     box-shadow:rgba(0,0,0,0.8) 0px 0 10px;
 }
@@ -129,7 +130,7 @@ figcaption {
     font-size: 14px;
     color: rgb(58, 58, 58);
     margin-bottom: 3rem;
-    margin-top: 1.4rem;
+    margin-top: 1rem;
 }
 
 .card p {
@@ -268,6 +269,9 @@ figcaption {
 #above-footer {
     margin-bottom: 90px;
 }
+#last {
+    margin-bottom: 120px;
+}
 @media (max-width: 800px) {
     .next-chapter {
         flex-direction: column;
@@ -278,6 +282,20 @@ figcaption {
     }
 }
 @media (max-width: 600px) {
+    .capitulo{
+        font-size: 20px;
+    }
+    .card h1{
+        font-size: 1.8rem;
+        box-sizing: border-box;
+    }
+    .card h2{
+        max-width: 350px;
+        text-align: center;
+        margin: 0 auto;
+        font-size: 1.2;
+        margin-bottom: 2rem;
+    }
     .card-first {
         display: flex;
         flex-direction: column;
@@ -331,7 +349,7 @@ figcaption {
     .card h2{
         max-width: 350px;
         text-align: center;
-        margin: 0 auto;
+        margin: 1rem auto;
         font-size: 1.2;
     }
     .capas-de-jornal{

@@ -157,7 +157,7 @@
 /* ######################## PROXIMO CAPÍTULO ######################## */
 .next-chapter {
     display: flex;
-    gap: 1rem;
+    gap: 0.5rem;
     margin-bottom: 90px;
 }
 .rainbow-button {
@@ -211,7 +211,7 @@
 iframe {
     border-radius: 10px;
     width: 70%;
-    margin-top: 5rem;
+    margin-top: 2.2rem;
 }
 .footer {
     width: 100%;

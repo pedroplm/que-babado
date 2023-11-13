@@ -243,7 +243,7 @@
 /* ######################## PROXIMO CAPÍTULO ######################## */
 .next-chapter {
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
     margin-bottom: 90px;
 }
 .rainbow-button {
@@ -456,6 +456,9 @@
     }
     .container {
         padding: 0;
+    }
+    #last{
+        margin-bottom: 20px;
     }
 }
 @media (max-width: 375px){

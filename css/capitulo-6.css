@@ -171,7 +171,7 @@
 /* ######################## PROXIMO CAPÍTULO ######################## */
 .next-chapter {
     display: flex;
-    gap: 2rem;
+    gap: 0.5rem;
     margin-bottom: 90px;
 }
 .rainbow-button {
@@ -377,7 +377,9 @@
         margin-bottom: 2.5rem;
        
     }
-    
+    #last {
+        margin-bottom: 20px;
+    }
     .list5 img{
         width:350px;
         padding: 2px;
