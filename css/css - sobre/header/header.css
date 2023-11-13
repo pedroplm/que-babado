@@ -9,7 +9,7 @@ header {
 }
 
 .header__logo h1 {
-    width: 500px;
+    width: 400px;
     margin-right: 2rem;
     font-size: 38px;
     font-weight: 600;
@@ -125,5 +125,24 @@ header {
 @media (max-width: 600px) {
     .header__nav-item img {
         display: none;
+    }
+    .header__logo h1 {
+        width: 320px;
+        margin-right: 2rem;
+        font-size: 32px;
+        font-weight: 600;
+        padding-left: 2rem;
+    }
+}
+@media (max-width: 375px) {
+    .header__nav-item img {
+        display: none;
+    }
+    .header__logo h1 {
+        width: 220px;
+        margin-right: 2rem;
+        font-size: 24px;
+        font-weight: 600;
+        padding-left: 2rem;
     }
 }
