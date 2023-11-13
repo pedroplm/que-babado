@@ -404,6 +404,29 @@
     }
     
 }
+@media (max-width: 375px){
+    .capitulo{
+        font-size: 20px;
+    }
+    .card h1{
+        font-size: 1.8rem;
+        box-sizing: border-box;
+    }
+    .card h2{
+        max-width: 350px;
+        text-align: center;
+        margin: 0 auto;
+        font-size: 1.2;
+    }
+    .capas-de-jornal{
+        width: 300px;
+    }
+    .legenda{
+        width: 300px;
+    }
+    
+    
+}
 @media (min-width:900px){
     .next-chapter{
         display:none;

@@ -6,7 +6,7 @@
     --font-paragraph: "Poppins", sans-serif;
     --background-capitulo-1: rgb(218, 127, 127);
     --background-capitulo-2: rgb(253, 198, 147);
-    --background-capitulo-3: #f4f76f;
+    --background-capitulo-3: #e9db19;
     --background-capitulo-4: rgb(166, 204, 166);
     --background-capitulo-5: rgb(66, 92, 204);
     --background-capitulo-6: #d0aae6;
@@ -64,7 +64,7 @@ figcaption {
     color: rgb(221, 152, 88);
 }
 .cor-cap-3 {
-    color: #dbcd00;;
+    color: #b1a502;
 }
 .cor-cap-4 {
     color: var(--background-capitulo-4);
@@ -126,6 +126,7 @@ figcaption {
     margin-bottom: 3rem;
     margin-top: 1.4rem;
 }
+
 .card p {
     text-align: left;
     letter-spacing: 0.3px;
@@ -216,7 +217,7 @@ figcaption {
     font-family: var(--font-paragraph);
     text-align: center;
 }
-.sidebar-items:hover {
+.sidebar-items:hover , .sidebar-items-capitulos:hover {
     opacity: 0.6;
     color:white;
 }

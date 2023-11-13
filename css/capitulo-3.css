@@ -209,11 +209,12 @@
 /* ######################## FIM PROXIMO CAPÍTULO ######################## */
 iframe {
     border-radius: 10px;
-    width: 60%;
+    width: 70%;
+    margin-top: 5rem;
 }
 .footer {
     width: 100%;
-    background-color: #e9d903;
+    background-color: var(--background-capitulo-3);
     color: rgb(5, 5, 5);
     position: fixed;
     bottom: 0;
@@ -281,7 +282,28 @@ iframe {
         height: auto;
         padding: 5px;
     }
+    .slider5{
+        width: 500px;
+        height: 400px;
+        margin: 1rem;
+        margin-bottom: 2.5rem;
+       
+    }
+    
+    .list5 img{
+        width:500px;
+        
+    }
 
+    .buttons5{
+        top: 20%;
+        
+    }
+    
+    .dots5{
+        left: 38%;
+        
+    }
     .footer__nav {
         width: 70%;
         height: 70px;
@@ -349,7 +371,7 @@ iframe {
         
     }
 }
-@media (max-width: 600px) {
+@media (max-width: 630px) {
     .footer {
         display: none;
     }
@@ -433,7 +455,7 @@ iframe {
         display: flex;
         justify-content: space-around;
         /* hamburger menu especific COLORS*/
-        background-color: #f7f89d8a;
+        background-color: #dbdf04a4;
     }
     .sidebar-container-title{
         font-size: 24px;

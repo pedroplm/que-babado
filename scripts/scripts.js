@@ -7,14 +7,14 @@ function toggleMenu() {
         // if is menuBox displayed, hide it
         menu.classList.add("rainbow-hover");
         menuBox.style.display = "flex";
-        menuBox.style.translate = "110%";
+        menuBox.style.translate = "100%";
         sleep(400).then(() => {
-            menuBox.style.translate = "-110%";
+            menuBox.style.translate = "-100%";
         });
     } else {
         // if is menuBox hidden, display it
         menu.classList.remove("rainbow-hover");
-        menuBox.style.translate = "110%";
+        menuBox.style.translate = "100%";
         sleep(400).then(() => {
             menuBox.style.display = "none";
         });
