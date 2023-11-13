@@ -288,7 +288,7 @@ figcaption {
     .card h1{
         font-size: 1.8rem;
         box-sizing: border-box;
-        line-height: 2.6rem;
+        line-height: 2rem;
     }
     .card h2{
         max-width: 350px;
@@ -377,3 +377,5 @@ figcaption {
         width: 1rem;
     }
 }
+
+

@@ -527,14 +527,14 @@
         font-size: 20px;
     }
     .card h1{
-        font-size: 42px;
+        font-size: 1.8rem;
         box-sizing: border-box;
     }
-    .card h2{
+    h2{
         max-width: 350px;
         text-align: center;
         margin: 0 auto;
-        font-size: 1.2;
+        margin-bottom: 2rem;
     }
     .capas-de-jornal{
         width: 300px;
