@@ -308,6 +308,9 @@ figcaption {
     .capitulo-title{
         font-size: 36px;
     }
+    .card p{
+        width: 75%;
+    }
     .card-links {
         position: relative;
         display: flex;
@@ -364,7 +367,7 @@ figcaption {
     
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
     .card-links {
         position: relative;
         display: flex;
@@ -375,6 +378,9 @@ figcaption {
     }
     .card-links img {
         width: 1rem;
+    }
+    .card p{
+        width: 90%;
     }
 }
 
