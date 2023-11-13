@@ -44,6 +44,7 @@ h2 {
     font-size: 22px;
 
     text-align: center;
+    margin-bottom: 2rem;
 }
 h3 {
     font-family: var(--font-title);
@@ -97,15 +98,19 @@ figcaption {
     justify-content: center;
     gap: 2rem;
     right: -26%;
-    top: -65px;
+    top: -55px;
 }
 .card-links img {
-    width: 1.2rem;
+    width: 1.4rem;
 }
 .card-links img:hover {
     opacity: 0.5;
 }
-
+.data {
+    font-family: var(--font-paragraph);
+   font-size: 14px;
+   font-weight: 600;
+}
 .card-subtitle{
     text-align: left;
     font-size: 20px;
@@ -114,7 +119,7 @@ figcaption {
 }
 .capas-de-jornal {
     width: 366px;
-    margin: 1.8rem 0;
+    margin: 2.2rem 0;
     border-radius: 5px;
     box-shadow:rgba(0,0,0,0.8) 0px 0 10px;
 }
