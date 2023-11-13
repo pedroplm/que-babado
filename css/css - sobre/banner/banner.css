@@ -11,6 +11,13 @@
     background-color: var(--bg-color-about);
     background-repeat: no-repeat;
 }
+.banner-transcricao {
+    background-image: url("../../assets-sobre/transcricao.png");
+    background-position: center;
+    background-size:cover;
+    background-color: var(--bg-color-about);
+    background-repeat: no-repeat;
+}
 .banner-julia {
     background-image: url("../../assets-sobre/banner-julia.png");
     background-position: center;
@@ -83,6 +90,14 @@
     }
 
     .banner-sobre-nos {
+        background-image: url("../../assets-sobre/banner\ sobre\ nós.png");
+        background-position: center;
+        background-size:cover;
+        background-color: var(--bg-color-about);
+        background-repeat: no-repeat;
+        height: 10rem;
+    }
+    .banner-transcricao {
         background-image: url("../../assets-sobre/banner\ sobre\ nós.png");
         background-position: center;
         background-size:cover;

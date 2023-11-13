@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Julia Facca & Oscar Nucci</title>
+    <link rel="icon" href = "./assets/Que_Babado-logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Mea+Culpa&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/css - sobre/reset.css" />
+    <link rel="stylesheet" href="css/css - sobre/styles.css" />
+    <link rel="stylesheet" href="css/css - sobre/header/header.css" />
+    <link rel="stylesheet" href="css/css - sobre/banner/banner.css" />
+    <link rel="stylesheet" href="css/css - sobre/about/about.css" />
+    <link rel="stylesheet" href="css/css - sobre/footer/footer.css" />
+</head>
+
+<body>
+    <!-- HAMBURGER MENU -->
+    <aside class="sidebar" id = "menu-box" style="display: none;">   
+        <nav>
+            <div class="sidebar-title-container">
+                <p class = "sidebar-title">Capítulos</p>
+                <p class = "sidebar-x" onclick="toggleMenu()">X</p>
+            </div>
+            <ul class = "sidebar-container"  >
+                <li><a class = "sidebar-items" href="/capitulo-1.html">Nasce o Babado</a></li>
+                <li><a class = "sidebar-items" href="./capitulo-2.html">Anos de Ferveção</a></li>
+                <li><a class = "sidebar-items" href="/capitulo-3.html">Babado nas Ruas</a></li>
+                <li><a class = "sidebar-items" href="/capitulo-4.html">Festa ou Luta</a></li>
+                <li><a class = "sidebar-items" href="./capitulo-5.html">Elas por Elas</a></li>
+                <li><a class = "sidebar-items" href="/capitulo-6.html">Depois do Fim</a></li>
+                <li><a class = "sidebar-items" href="/capitulo-7.html">Imprensa Gay</a></li>
+            </ul>
+        </nav>
+    </aside>
+    <!-- HAMBURGER MENU -->
+    
+    <header class="container">
+        <div class="header__logo">
+            <h1>Babado acessível</h1>
+        </div>
+    </header>
+    <section class="banner banner-transcricao container"></section>
+    <section class="about container">
+        <h2 class="about__title">Sobre Julia Facca</h2>
+        <p class="about__text">
+            O site Que Babado! é uma reportagem multimídia produzida como Trabalho de Conclusão de Curso de Jornalismo da PUC-Campinas pelos alunos Julia Facca e Oscar Nucci, sob orientação da Profa. Dra. Juliana Doretto. Nele, recuperamos a trajetória do <a class="ancor-to-personal-page" href="https://drive.google.com/file/d/1gJUoIlULWoYMyIQpuzpPtyCg2GJLY2A4/view" target="_blank" rel="noopener noreferrer">Babado</a>, o primeiro jornal LGBT+ de Campinas, 25 anos depois da publicação de sua última edição, em 1998. <br/><br/>27 nov. 2023
+            
+        </p>
+       
+    </section>
+    <div class="footer">
+        <div class="footer-image">
+            <a href="index.html"><img src="./assets/Que_Babado-logo.png" /></a>
+        </div>
+        <div class="footer__nav">
+            <a href="./index.html">
+                <p>Home</p>
+            </a>
+            <a type="checkbox" id = "check"><p id = "menu" onclick = "toggleMenu()">Capítulos</p></a>
+            <a href="./sobre.html">
+                <p>Sobre Nós</p>
+            </a>
+        </div>
+    </div>
+    <script src="./scripts/scripts.js"></script>
+</body>
+
+</html>
