@@ -31,7 +31,7 @@ body {
     letter-spacing: 0.2px;
 }
 .container {
-    padding: 0 5rem;
+    padding: 0 2rem;
 }
 h1 {
     font-family: var(--font-title);
@@ -45,6 +45,15 @@ h2 {
 
     text-align: center;
     margin-bottom: 2rem;
+}
+.card h1 {
+    font-size: 42px;
+    font-weight: bold;
+    padding: 20px 0px;
+    color: white;
+}
+.content h2 {
+    padding: 80px;
 }
 h3 {
     font-family: var(--font-title);
@@ -342,7 +351,7 @@ figcaption {
         left: 85%;
     }
 }
-@media (max-width: 400px){
+@media (max-width: 600px){
     .capitulo{
         font-size: 20px;
     }
@@ -353,7 +362,7 @@ figcaption {
     .card h2{
         max-width: 350px;
         text-align: center;
-        margin: 1rem auto;
+        margin: 0 auto;
         margin-bottom: 2.2rem;
         font-size: 1.2;
     }

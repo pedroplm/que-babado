@@ -21,12 +21,7 @@
 .capitulo-fineline{
     font-size: 28px;
 }
-.card h1 {
-    font-size: 44px;
-    font-weight: bold;
-    padding: 20px;
-    color: white;
-}
+
 /* ################################ CORPO ################################ */
 
 .card p:first-child {

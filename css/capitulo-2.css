@@ -19,15 +19,8 @@
     height: fit-content;
 }
 
-.card h1 {
-    font-size: 42px;
-    font-weight: bold;
-    padding: 20px;
-    color: white;
-}
-.content h2 {
-    padding: 80px;
-}
+
+
 #last{
     margin-bottom: 90px;
 }
@@ -511,40 +504,9 @@
         left: 30%;
     }
     
-    .card h1{
-        font-size: 2.4rem;
-        box-sizing: border-box;
-    }
-    .card h2{
-        max-width: 350px;
-        text-align: center;
-        margin: 0 auto;
-        margin-bottom: 2rem;
-    }
+   
 }
-@media (max-width: 450px){
-    .capitulo{
-        font-size: 20px;
-    }
-    .card h1{
-        font-size: 1.8rem;
-        box-sizing: border-box;
-    }
-    h2{
-        max-width: 350px;
-        text-align: center;
-        margin: 0 auto;
-        margin-bottom: 2rem;
-    }
-    .capas-de-jornal{
-        width: 300px;
-    }
-    .legenda{
-        width: 300px;
-    }
-    
-    
-}
+
 
 @media (min-width: 900px){
     .next-chapter{
