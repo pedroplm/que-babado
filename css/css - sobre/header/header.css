@@ -134,7 +134,7 @@ header {
         padding-left: 2rem;
     }
 }
-@media (max-width: 375px) {
+@media (max-width: 420px) {
     .header__nav-item img {
         display: none;
     }
