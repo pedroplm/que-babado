@@ -318,7 +318,9 @@
 .rainbow-button:hover {
     animation: slidebg 2s linear infinite;
 }
-
+.legenda-capa{
+    width: 360px;
+}
 @keyframes slidebg {
     to {
         background-position: 20vw;
