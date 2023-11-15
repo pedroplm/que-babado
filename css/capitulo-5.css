@@ -338,8 +338,6 @@
 /* ######################## PROXIMO CAPÍTULO ######################## */
 .next-chapter {
     display: flex;
-    gap: 0.5rem;
-    margin-bottom: 90px;
 }
 .rainbow-button {
     width: 200px;

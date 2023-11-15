@@ -63,15 +63,13 @@
     height: 500px;
 }
 #last {
-    margin-bottom: 120px;
+    margin-bottom: 150px;
 }
 /* ################################ FIM CORPO ################################ */
 
 /* ######################## PROXIMO CAPÍTULO ######################## */
 .next-chapter {
     display: flex;
-    gap: 0.5rem;
-    margin-bottom: 90px;
 }
 .rainbow-button {
     width: 200px;
@@ -242,7 +240,7 @@
         display: none;
     }
     #last {
-        margin-bottom: 20px;
+        margin-bottom: 100px;
     }
     .rainbow-button {
         margin-top: 20px;

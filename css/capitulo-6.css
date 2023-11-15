@@ -173,8 +173,6 @@
 /* ######################## PROXIMO CAPÍTULO ######################## */
 .next-chapter {
     display: flex;
-    gap: 0.5rem;
-    margin-bottom: 90px;
 }
 .rainbow-button {
     width: 200px;
@@ -332,6 +330,9 @@
         top: 22%;
         
     }
+    #last {
+        margin-bottom: 150px;
+    }
     
     .dots5{
         left: 40%;
@@ -378,9 +379,6 @@
         margin: 1rem;
         margin-bottom: 2.5rem;
        
-    }
-    #last {
-        margin-bottom: 20px;
     }
     .list5 img{
         width:350px;

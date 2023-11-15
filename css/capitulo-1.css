@@ -235,8 +235,6 @@
 /* ######################## PROXIMO CAPÍTULO ######################## */
 .next-chapter {
     display: flex;
-    gap: 1rem;
-    margin-bottom: 90px;
 }
 .rainbow-button {
     width: 200px;

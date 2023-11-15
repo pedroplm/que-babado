@@ -125,10 +125,10 @@ if (screenWidth >= 600){
     //DESKTOP
     nanyPeople.innerHTML = "Amiga dos membros da equipe editorial do Babado, a drag e apresentadora Nany People apareceu em 1998 no jornal";
 
-    jairoLegenda.innerHTML = "O editor-chefe Jairo Silva se abriu em entrevista sobre os vários desafios que sua identidade traziam, em 1997";
+    jairoLegenda.innerHTML = "O editor-chefe Jairo Silva se abriu em entrevista sobre os vários desafios que sua identidade trazia, em 1997";
 } else {
     //CELULAR
     nanyPeople.innerHTML = "Amiga da equipe editorial do Babado, a drag Nany People apareceu em 1998 no jornal";
 
-    jairoLegenda.innerHTML = "O editor-chefe Jairo Silva se abriu sobre os desafios que sua identidade traziam, em 1997";
+    jairoLegenda.innerHTML = "O editor-chefe Jairo Silva se abriu sobre os desafios que sua identidade trazia, em 1997";
 }
