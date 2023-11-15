@@ -267,6 +267,40 @@ figcaption {
     /*background-color: rgb(255, 228, 196); */
     border-radius: 100vw;
 }
+
+.button-end {
+    font-size: 22px;
+    font-family: var(--font-paragraph);
+    border-bottom: 2px solid rgb(19, 19, 19);
+    font-weight: 500;
+
+}
+.button-end:hover{
+    border-bottom: 2px solid rgb(19, 19, 19);
+background: linear-gradient(
+    to right,
+    #b827fc 0%,
+    #2c90fc 25%,
+    #b8fd33 50%,
+    #fec837 75%,
+    #fd1892 100%
+);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+border-bottom: 3px solid transparent;
+border-image: linear-gradient(
+    to right,
+    #b827fc 0%,
+    #2c90fc 25%,
+    #b8fd33 50%,
+    #fec837 75%,
+    #fd1892 100%
+);
+border-image-slice: 1;
+transition: 1s;
+font-weight: 600;
+}
 #olho{
     padding: 1.4rem 3rem;
     font-size: 16.5px;
@@ -284,8 +318,39 @@ figcaption {
 }
 @media (max-width: 800px) {
     .next-chapter {
-        flex-direction: column;
         gap: 0px;
+    }
+    .button-end {
+        font-size: 18px;
+        font-family: var(--font-paragraph);
+        border-bottom: 2px solid rgb(19, 19, 19);
+        font-weight: 500;
+    }
+    .button-end:hover{
+        border-bottom: 2px solid rgb(19, 19, 19);
+    background: linear-gradient(
+        to right,
+        #b827fc 0%,
+        #2c90fc 25%,
+        #b8fd33 50%,
+        #fec837 75%,
+        #fd1892 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    border-bottom: 3px solid transparent;
+    border-image: linear-gradient(
+        to right,
+        #b827fc 0%,
+        #2c90fc 25%,
+        #b8fd33 50%,
+        #fec837 75%,
+        #fd1892 100%
+    );
+    border-image-slice: 1;
+    transition: 1s;
+    font-weight: 600;
     }
     .card-links{
         right: -20%;
@@ -351,6 +416,15 @@ figcaption {
     .hamburger-menu{
         left: 85%;
     }
+    .next-chapter {
+        gap: 0px;
+    }
+    .button-end {
+        font-size: 16px;
+        font-family: var(--font-paragraph);
+        border-bottom: 2px solid rgb(19, 19, 19);
+        font-weight: 500;
+    }
 }
 @media (max-width: 600px){
     .capitulo{
@@ -393,6 +467,17 @@ figcaption {
     .card p{
         width: 90%;
     }
+    .next-chapter {
+        gap: 0px;
+        width: 350px;
+    }
+    .button-end {
+        font-size: 16px;
+        font-family: var(--font-paragraph);
+        border-bottom: 2px solid rgb(19, 19, 19);
+        font-weight: 500;
+    }
+  
 }
 
 
