@@ -332,18 +332,10 @@ font-weight: 600;
     .button-end {
         font-size: 16px;
         font-family: var(--font-paragraph);
-        border-bottom: 2px solid rgb(19, 19, 19);
+        border-bottom: 2px solid rgb(255, 255, 255);
         font-weight: 500;
         padding: 5px;
-    }
-    .home {
-        border-left: 2px solid rgb(255, 255, 255);
-        border-right: 2px solid rgb(255, 255, 255);
-        padding: 5px 15px;
-    }
-    .ultimo-home {
-        border-right: 2px solid rgb(255, 255, 255);
-        padding: 5px 55px 5px 5px;
+        border-bottom: 2px solid rgb(255, 255, 255);
     }
     .button-end:hover{
         border-bottom: 2px solid rgb(255, 255, 255);
@@ -442,7 +434,6 @@ font-weight: 600;
     .button-end {
         font-size: 16px;
         font-family: var(--font-paragraph);
-        border-bottom: 2px solid rgb(19, 19, 19);
         font-weight: 500;
     }
 }
@@ -462,9 +453,6 @@ font-weight: 600;
         margin-bottom: 2.2rem;
         font-size: 1.2rem;
     }
-    .ultimo-home {
-        border-right: 2px solid rgb(255, 255, 255);
-        padding: 5px 45px 5px 5px;
     }
     .capas-de-jornal{
         width: 300px;
@@ -474,8 +462,6 @@ font-weight: 600;
     }
     
     
-}
-
 @media (max-width: 450px) {
     .card-links {
         position: relative;
@@ -491,10 +477,6 @@ font-weight: 600;
     .card p{
         width: 90%;
     }
-    .ultimo-home {
-        border-right: 2px solid rgb(255, 255, 255);
-        padding: 5px 35px 5px 5px;
-    }
     .next-chapter {
         gap: 1.6rem;
         width: 100%;
@@ -505,7 +487,6 @@ font-weight: 600;
     .button-end {
         font-size: 16px;
         font-family: var(--font-paragraph);
-        border-bottom: 2px solid rgb(19, 19, 19);
         font-weight: 500;
     }
   
