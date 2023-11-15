@@ -311,10 +311,10 @@ font-weight: 600;
     
 }
 #above-footer {
-    margin-bottom: 90px;
+    margin-bottom: 0px;
 }
 #last {
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
 @media (max-width: 900px) {
     .next-chapter {
@@ -326,7 +326,7 @@ font-weight: 600;
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 150px;
+        height: 100px;
         top:99%
     }
     .button-end {
