@@ -198,7 +198,7 @@
     height: 400px;
     margin: 5rem;
     margin-top: 2.2rem;
-    margin-bottom: 2.5rem;
+    margin-bottom: .5rem;
     position: relative;
     overflow: hidden;
     border-radius: 5px;
@@ -366,6 +366,10 @@
     padding: 0px 0px;
     box-sizing: border-box;
 
+}
+
+.legenda{
+    width: 315px;
 }
 
 .buttons5{
