@@ -135,12 +135,12 @@ figcaption {
 }
 .legenda{
     font-family: var(--font-paragraph);
-    text-align: center;
-    font-size: 14px;
+    text-align: LEFT;
+    font-size: 12px;
     color: rgb(58, 58, 58);
     margin-bottom: 3rem;
     margin-top: 0.5rem;
-    max-width: 360px;
+    max-width: 370px;
 }
 
 .card p {
