@@ -321,6 +321,9 @@
 .legenda-capa{
     width: 360px;
 }
+.legenda-wide{
+    font-size: 14px;
+}
 @keyframes slidebg {
     to {
         background-position: 20vw;
