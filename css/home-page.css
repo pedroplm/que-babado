@@ -341,7 +341,9 @@ body {
 }
 
 
-
+#above-footer{
+    margin-bottom: 120px;
+}
 .footer {
     width: 100%;
     background-color: rgb(17, 17, 17);
@@ -531,12 +533,18 @@ body {
         justify-content: center;
         font-size: 10px;
     }
+    #above-footer{
+        margin-bottom: 120px;
+    }
 }
 
 @media (max-width: 840px) {
     .principal__video{
         width: 80%;
         height: 22.5rem;
+    }
+    #above-footer{
+        margin-bottom: 120px;
     }
 }
 
@@ -581,6 +589,9 @@ body {
         margin-right: 0;
         padding-left: 0;
     }
+    #above-footer{
+        margin-bottom: 120px;
+    }
 }
 
 @media (max-width: 650px) {
@@ -621,6 +632,9 @@ body {
         flex-wrap: wrap;
         flex-grow: 1;
         height: 400px;
+    }
+    #above-footer{
+        margin-bottom: 120px;
     }
 }
 @media (max-width: 350px) {
@@ -670,6 +684,9 @@ body {
     .rainbow-button:after {
         width: 92px;
         height: 42px;
+    }
+    #above-footer{
+        margin-bottom: 120px;
     }
     
 }
