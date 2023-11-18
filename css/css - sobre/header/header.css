@@ -78,10 +78,16 @@ header {
 }
 .sidebar-x {
     margin-bottom: 30px;
+    margin-left: 130%;
+    text-align: right;
     font-size: 30px;
     font-weight: 400;
     width: 50px;
     cursor: pointer;
+    transition: opacity 1s;
+}
+.sidebar-x:hover {
+    opacity: 0.8;
 }
 .sidebar-items:hover{
     border-bottom: 2px solid white;

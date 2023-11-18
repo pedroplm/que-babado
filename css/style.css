@@ -100,13 +100,24 @@ figcaption {
     align-items: center;
     margin-top: 5rem;
 }
+.credito-capas{
+    font-family: var(--font-paragraph);
+    text-align: left;
+    font-size: 12px;
+    float: left;
+    position: absolute;
+    z-index: -1;
+    bottom: 10%;
+    left: 1%;
+    color: white;
+}
 .card-links {
     position: relative;
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 2rem;
-    right: -28%;
+    right: -26%;
     top: -55px;
 }
 .card-links img {
@@ -127,7 +138,8 @@ figcaption {
     letter-spacing: 0.2;
 }
 .capas-de-jornal {
-    width: 366px;
+    width: 450px;
+    height: 600px;
     margin: 2.2rem 0;
     margin-bottom: 1rem;
     border-radius: 5px;
@@ -140,7 +152,8 @@ figcaption {
     color: rgb(58, 58, 58);
     margin-bottom: 3rem;
     margin-top: 0.5rem;
-    max-width: 370px;
+    width: 450px;
+    line-height: 1rem;
 }
 
 .card p {
@@ -366,6 +379,10 @@ font-weight: 600;
     .card-links{
         right: -20%;
     }
+    
+    .legenda{
+        width: 450px;
+    }
 }
 @media (max-width: 600px) {
     .capitulo{
@@ -436,6 +453,13 @@ font-weight: 600;
         font-family: var(--font-paragraph);
         font-weight: 500;
     }
+    .capas-de-jornal{
+        width: 350px;
+        height: 500px;
+    }
+    .legenda{
+        width: 350px;
+    }
 }
 @media (max-width: 600px){
     .capitulo{
@@ -454,12 +478,8 @@ font-weight: 600;
         font-size: 1.2rem;
     }
     }
-    .capas-de-jornal{
-        width: 300px;
-    }
-    .legenda{
-        width: 300px;
-    }
+    
+   
     
     
 @media (max-width: 450px) {
@@ -471,11 +491,18 @@ font-weight: 600;
         gap: 1rem;
         right: -25%;
     }
+    .legenda{
+        width: 300px;
+    }
     .card-links img {
         width: 1rem;
     }
     .card p{
         width: 90%;
+    }
+    .capas-de-jornal{
+        width: 300px;
+        height: 400px;
     }
     .next-chapter {
         gap: 1.6rem;

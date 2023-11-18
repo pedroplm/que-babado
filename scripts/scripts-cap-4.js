@@ -61,7 +61,7 @@ next2.onclick = function () {
 };
 prev2.onclick = function () {
     if (active2 - 1 < 0) {
-        active2 = 4;
+        active2 = 3;
     } else {
         active2 = active2 - 1;
     }

@@ -1,0 +1,38 @@
+.formulario-email{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg-color-about);
+    height: 400px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5rem;
+    padding-bottom: 10rem;
+
+}
+.formulario-email form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 0.5rem;
+}
+.formulario-email-input{
+    background-color: var(--bg-color-about);
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 40px;
+}
+.formulario-email form textarea{
+    background-color: var(--bg-color-about);
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.formulario-email p{
+    font-size: 24px;
+}
+.btn-enviar{
+    border-radius: 10px;
+    border: 0px;
+    height: 50px;
+    background-color: black;
+    color: white;
+}

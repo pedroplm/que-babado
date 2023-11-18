@@ -90,7 +90,7 @@ next2.onclick = function () {
 };
 prev2.onclick = function () {
     if (active2 - 1 < 0) {
-        active2 = 5;
+        active2 = 7;
     } else {
         active2 = active2 - 1;
     }
@@ -157,3 +157,18 @@ dots4.forEach((li, key) => {
         reloadSlider4();
     });
 });
+
+
+
+const btn =  document.getElementsById('btn-enviar');
+
+btn.addEventListener('click', (e)=>{
+    const name = document.getElementById('name');
+    const email = document.getElementById('email');
+    const message = document.getElementById('message');
+
+    name.value = "";
+    email.value = "";
+    message.value = "";
+
+})

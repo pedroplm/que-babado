@@ -18,7 +18,7 @@ next5.onclick = function (){
 }
 prev5.onclick = function (){
         if (active5 - 1 < 0){
-                active5 = 4;
+                active5 = 6;
         } else {
                 active5 = active5 - 1;
         }

@@ -1,0 +1,38 @@
+.credit{
+    background-color: black;
+    padding: 2rem;
+    height: 320px;
+}
+.credit__text {
+    color: white;
+    font-weight: 300;
+    text-align: left;
+    padding: 2rem;
+    letter-spacing: 0.4px;
+    font-family: var(--font-paragraph);
+    width: 80%;
+    margin: 0 auto;
+}
+.credit__text-data{
+    color: white;
+    font-weight: 300;
+    text-align: left;
+    padding: 2rem;
+    letter-spacing: 0.4px;
+    font-family: var(--font-paragraph);
+    width: 80%;
+    margin: 0 auto 20px;
+}
+.credit-links {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5rem;
+    color: white;
+}
+.credit-links{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
