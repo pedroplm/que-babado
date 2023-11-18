@@ -324,10 +324,10 @@ font-weight: 600;
     
 }
 #above-footer {
-    margin-bottom: 0px;
+    margin-bottom: 90px;
 }
 #last {
-    margin-bottom: 0px;
+    margin-bottom: 90px;
 }
 @media (max-width: 900px) {
     .next-chapter {
@@ -492,7 +492,7 @@ font-weight: 600;
         right: -25%;
     }
     .legenda{
-        width: 300px;
+        width: 350px;
     }
     .card-links img {
         width: 1rem;
@@ -501,8 +501,8 @@ font-weight: 600;
         width: 90%;
     }
     .capas-de-jornal{
-        width: 300px;
-        height: 400px;
+        width: 350px;
+        height: 500px;
     }
     .next-chapter {
         gap: 1.6rem;

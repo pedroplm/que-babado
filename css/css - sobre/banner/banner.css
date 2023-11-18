@@ -163,4 +163,7 @@
         background-repeat: no-repeat;
         height: 6rem;
     }
+    .banner__text-content-links-link{
+        font-size: 12px;
+    }
 }

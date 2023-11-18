@@ -82,7 +82,7 @@ let lengthItems2 = items2.length - 1;
 
 next2.onclick = function () {
     if (active2 + 1 > lengthItems2) {
-        active2 = 0;
+        active2 = lengthItems2;
     } else {
         active2 = active2 + 1;
     }
@@ -90,7 +90,7 @@ next2.onclick = function () {
 };
 prev2.onclick = function () {
     if (active2 - 1 < 0) {
-        active2 = 7;
+        active2 = 0;
     } else {
         active2 = active2 - 1;
     }
@@ -127,7 +127,7 @@ let lengthItems4 = items4.length - 1;
 
 next4.onclick = function () {
     if (active4 + 1 > lengthItems4) {
-        active4 = 0;
+        active4 = lengthItems4;
     } else {
         active4 = active4 + 1;
     }
@@ -135,7 +135,7 @@ next4.onclick = function () {
 };
 prev4.onclick = function () {
     if (active4 - 1 < 0) {
-        active4 = 3;
+        active4 = 0;
     } else {
         active4 = active4 - 1;
     }
@@ -160,9 +160,9 @@ dots4.forEach((li, key) => {
 
 
 
-const btn =  document.getElementsById('btn-enviar');
+const btn =  document.getElementById('btn-enviar');
 
-btn.addEventListener('click', (e)=>{
+btn.addEventListener('click', ()=>{
     const name = document.getElementById('name');
     const email = document.getElementById('email');
     const message = document.getElementById('message');

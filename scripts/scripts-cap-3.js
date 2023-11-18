@@ -10,7 +10,7 @@ let lengthItems5 = items5.length - 1;
 
 next5.onclick = function (){
         if (active5 + 1 > lengthItems5){
-                active5 = 0;
+                active5 = lengthItems5;
         } else {
                 active5 = active5 + 1;
         }
@@ -18,7 +18,7 @@ next5.onclick = function (){
 }
 prev5.onclick = function (){
         if (active5 - 1 < 0){
-                active5 = 2;
+                active5 = 0;
         } else {
                 active5 = active5 - 1;
         }

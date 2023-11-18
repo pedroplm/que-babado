@@ -10,7 +10,7 @@ let lengthItems = items.length - 1;
 
 next.onclick = function (){
         if (active + 1 > lengthItems){
-                active = 0;
+                active = lengthItems;
         } else {
                 active = active + 1;
         }
@@ -18,7 +18,7 @@ next.onclick = function (){
 }
 prev.onclick = function (){
         if (active - 1 < 0){
-                active = 3;
+                active = 0;
         } else {
                 active = active - 1;
         }
@@ -53,7 +53,7 @@ let lengthItems2 = items2.length - 1;
 
 next2.onclick = function () {
     if (active2 + 1 > lengthItems2) {
-        active2 = 0;
+        active2 = lengthItems2;
     } else {
         active2 = active2 + 1;
     }
@@ -61,7 +61,7 @@ next2.onclick = function () {
 };
 prev2.onclick = function () {
     if (active2 - 1 < 0) {
-        active2 = 3;
+        active2 = 0;
     } else {
         active2 = active2 - 1;
     }
@@ -97,7 +97,7 @@ let lengthItems5 = items5.length - 1;
 
 next5.onclick = function (){
         if (active5 + 1 > lengthItems5){
-                active5 = 0;
+                active5 = lengthItems5;
         } else {
                 active5 = active5 + 1;
         }
@@ -105,7 +105,7 @@ next5.onclick = function (){
 }
 prev5.onclick = function (){
         if (active5 - 1 < 0){
-                active5 = 1;
+                active5 = 0;
         } else {
                 active5 = active5 - 1;
         }

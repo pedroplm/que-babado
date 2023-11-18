@@ -220,7 +220,7 @@
     max-width: 100vw;
     height: 100%;
     object-fit: cover;
-    padding: 25px 50px;
+    padding: 25px 40px;
     box-sizing: border-box;
 }
 
@@ -360,7 +360,7 @@
     max-width: 100vw;
     height: 100%;
     object-fit: cover;
-    padding: 0px 0px;
+    padding: 0px 5px;
     box-sizing: border-box;
 
 }
@@ -582,7 +582,7 @@
     }
 .list img{
         width:350px;
-        padding: 2px;
+        padding: 10px;
         
     }
 .buttons{
@@ -638,6 +638,9 @@
     .dots5{
         left: 36%;
         
+    }
+    #above-footer{
+        margin-bottom: 90px;
     }
 }
 
