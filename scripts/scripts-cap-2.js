@@ -100,7 +100,7 @@ function necaFunction() {
 }
 
 
-window.addEventListener("click", (event) =>{
+window.addEventListener("mouseover", (event) =>{
     var dunda = document.getElementById("dundaPopup");
     var neca = document.getElementById("necaPopup");
     var biba = document.getElementById("bibaPopup");

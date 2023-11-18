@@ -106,7 +106,7 @@ figcaption {
     flex-direction: row;
     justify-content: center;
     gap: 2rem;
-    right: -26%;
+    right: -28%;
     top: -55px;
 }
 .card-links img {
@@ -229,7 +229,7 @@ figcaption {
     gap:2rem;
 }
 .sidebar-items {
-    font-size: 24px;
+    font-size: 22px;
     font-family: var(--font-paragraph);
     text-align: center;
 }
@@ -403,12 +403,12 @@ font-weight: 600;
         flex-direction: row;
         justify-content: center;
         gap: 2rem;
-        right: -15%;
+        right: -25%;
         margin-bottom: 2rem;
         top:0;
     }
     .card-links img {
-        width: 1rem;
+        width: 1.2rem;
     }
     .card-links:last-child {
         width: 1.2rem;
