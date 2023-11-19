@@ -105,10 +105,10 @@ figcaption {
     text-align: left;
     font-size: 12px;
     float: left;
-    position: absolute;
-    z-index: -1;
-    bottom: 10%;
-    left: 1%;
+    position: relative;
+    z-index: -3;
+    bottom:-290px;
+    left: -560px;
     color: white;
 }
 .card-links {
@@ -389,6 +389,17 @@ font-weight: 600;
     .legenda{
         width: 450px;
     }
+    .credito-capas{
+        font-family: var(--font-paragraph);
+        text-align: left;
+        font-size: 12px;
+        float: left;
+        position: relative;
+        z-index: -3;
+        bottom:-90px;
+        left: -150px;
+        color: white;
+    }
 }
 @media (max-width: 600px) {
     .capitulo{
@@ -466,6 +477,18 @@ font-weight: 600;
     .legenda{
         width: 350px;
     }
+    .credito-capas{
+        font-family: var(--font-paragraph);
+        text-align: left;
+        font-size: 12px;
+        float: left;
+        position: relative;
+        z-index: -3;
+        bottom:-90px;
+        left: -150px;
+        color: white;
+    }
+    
 }
 @media (max-width: 600px){
     .capitulo{
@@ -482,6 +505,17 @@ font-weight: 600;
         margin: 0 auto;
         margin-bottom: 2.2rem;
         font-size: 1.2rem;
+    }
+    .credito-capas{
+        font-family: var(--font-paragraph);
+        text-align: left;
+        font-size: 12px;
+        float: left;
+        position: relative;
+        z-index: -3;
+        bottom:-120px;
+        left: -80px;
+        color: white;
     }
     }
     
@@ -522,6 +556,17 @@ font-weight: 600;
         font-size: 16px;
         font-family: var(--font-paragraph);
         font-weight: 500;
+    }
+    .credito-capas{
+        font-family: var(--font-paragraph);
+        text-align: left;
+        font-size: 12px;
+        float: left;
+        position: relative;
+        z-index: -3;
+        bottom:-120px;
+        left: -40px;
+        color: white;
     }
   
 }

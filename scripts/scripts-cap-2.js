@@ -119,16 +119,22 @@ window.addEventListener("mouseover", (event) =>{
 let screenWidth = window.screen.width;
 let nanyPeople = document.getElementById("nany");
 let jairoLegenda = document.getElementById("jairo");
-console.log(screenWidth)
+let capas = document.getElementById("capas");
 
 if (screenWidth >= 600){
     //DESKTOP
-    nanyPeople.innerHTML = "Amiga dos membros da equipe editorial do Babado, a drag e apresentadora Nany People apareceu em 1998 no jornal";
+    capas.innerHTML =  "Número traz coluna de namoro para leitores, perfil do estilista italiano Gianni Versace, tutorial de ginástica e incentivo ao uso de camisinha"
 
-    jairoLegenda.innerHTML = "O editor-chefe Jairo Silva se abriu em entrevista sobre os vários desafios que sua identidade trazia, em 1997";
+    nanyPeople.innerHTML = "Amiga dos membros da equipe editorial do Babado, a drag e atriz Nany People perfomava na região e foi prestigiada em 1998 pela publicação";
+
+    jairoLegenda.innerHTML = "O editor-chefe Jairo Silva se abriu em entrevista sobre os desafios que sua identidade trazia em uma sociedade preconceituosa, em 1997";
+
+
 } else {
     //CELULAR
-    nanyPeople.innerHTML = "Amiga da equipe editorial do Babado, a drag Nany People apareceu em 1998 no jornal";
+    capas.innerHTML =  "Número traz coluna de namoro para leitores, perfil do estilista italiano Gianni Versace e tutorial de ginástica"
 
-    jairoLegenda.innerHTML = "O editor-chefe Jairo Silva se abriu sobre os desafios que sua identidade trazia, em 1997";
+    nanyPeople.innerHTML = "Amiga dos membros da equipe editorial do Babado, a então drag Nany People apareceu em 1998 no jornal";
+
+    jairoLegenda.innerHTML = "O editor-chefe Jairo Silva se abriu sobre os desafios que sua identidade trazia em uma sociedade racista";
 }

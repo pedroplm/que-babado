@@ -1,3 +1,21 @@
+let screenWidth = window.screen.width;
+let legendaCapa = document.getElementById("legendaCapas");
+
+if (screenWidth >= 940){
+    //DESKTOP
+    legendaCapa.innerHTML =  "Com design feito pelo já morto Micael Jacques, o Babado era conhecido por ousar em suas capas coloridas com fotos retiradas da internet sem autorização de homens, em sua maioria brancos, nus e seminus fazendo poses provocativas enquanto exibem seus corpos sarados"
+
+}
+if (screenWidth < 940 && screenWidth > 600) {
+    //CELULAR
+    legendaCapa.innerHTML =  "Com design feito por Micael Jacques, o Babado era conhecido por ousar em suas capas com fotos retiradas da internet de homens, em sua maioria brancos, nus e seminus fazendo poses"
+
+
+} else if (screenWidth < 600){
+
+        legendaCapa.innerHTML =  "Com design feito por Micael Jacques, o Babado era conhecido por ousar em suas capas com nudez"
+}
+
 //elas por elas
 let list = document.querySelector('.slider .list');
 let items = document.querySelectorAll('.slider .list .item');
@@ -127,3 +145,6 @@ dots5.forEach((li, key) =>{
         reloadSlider5();
      });   
 });
+
+
+
