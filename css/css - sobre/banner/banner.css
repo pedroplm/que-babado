@@ -34,7 +34,14 @@
     background-repeat: no-repeat;
     height: 30rem;
 }
-
+.banner-fale-com-autores {
+    background-image: url("../../assets-sobre/fale-com-autores.png");
+    background-position: center;
+    background-size:cover;
+    background-color: var(--bg-color-about);
+    background-repeat: no-repeat;
+    height: 150px;
+}
 .banner__text-content {
     display: flex;
     flex-direction: column;
@@ -119,6 +126,14 @@
         background-repeat: no-repeat;
         height: 15rem;
     }
+    .banner-fale-com-autores {
+        background-image: url("../../assets-sobre/fale-com-autores.png");
+        background-position: center;
+        background-size:cover;
+        background-color: var(--bg-color-about);
+        background-repeat: no-repeat;
+        height: 10rem;
+    }
 }
 @media (max-width: 600px) {
     .banner {
@@ -152,6 +167,14 @@
         background-color: var(--bg-color-about);
         background-repeat: no-repeat;
         height: 10rem;
+    }
+    .banner-fale-com-autores {
+        background-image: url("../../assets-sobre/fale-com-autores.png");
+        background-position: center;
+        background-size:cover;
+        background-color: var(--bg-color-about);
+        background-repeat: no-repeat;
+        height:8rem;
     }
 }
 @media (max-width: 500px) {

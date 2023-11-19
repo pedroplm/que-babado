@@ -229,7 +229,7 @@ figcaption {
     position: fixed;
     left: 95%;
     z-index: 2;
-    height: 350px;
+    height: 500px;
     display: none;
     background-color: rgba(173, 190, 255, 0.856);
     border-radius: 5px;

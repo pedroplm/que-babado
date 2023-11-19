@@ -185,6 +185,9 @@ body {
     justify-content: center;
     font-size: 12px;
 }
+.sidebar{
+    height: 320px;
+}
 .sidebar-title-container{
     display: flex;
     justify-content: space-between;
