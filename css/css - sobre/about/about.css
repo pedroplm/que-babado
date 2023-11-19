@@ -24,6 +24,17 @@
     width: 80%;
     margin: 0 auto;
 }
+.about__text-title{
+    color: black;
+    font-weight: 500;
+    text-align: left;
+    padding: .8rem 0 .8rem;
+    letter-spacing: 0.4px;
+    line-height: 1.4rem;
+    font-family: var(--font-paragraph);
+    width: 80%;
+    margin: 0 auto;
+}
 .about__text-p {
     color: black;
     font-weight: 300;

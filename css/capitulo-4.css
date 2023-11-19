@@ -662,7 +662,9 @@
     .capas-de-jornal{
         width: 300px;
     }
-    
+    #above-footer{
+        margin-bottom: 30px;
+    }
     
 }
 

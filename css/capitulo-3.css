@@ -308,9 +308,7 @@ iframe {
         text-align: center;
         gap: 1rem;
     }
-    #above-footer{
-        margin-bottom: 90px;
-    }
+    
     .credito-capas{
         font-family: var(--font-paragraph);
         text-align: left;
@@ -466,6 +464,9 @@ iframe {
         bottom:-120px;
         left: -12%;
         color: white;
+    }
+    #above-footer{
+        margin-bottom: 50px;
     }
     
     

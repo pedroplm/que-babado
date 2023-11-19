@@ -19,6 +19,13 @@
     background-color: var(--bg-color-about);
     background-repeat: no-repeat;
 }
+.banner-creditos {
+    background-image: url("../../assets-sobre/creditos.png");
+    background-position: center;
+    background-size:100%;
+    background-color: var(--bg-color-about);
+    background-repeat: no-repeat;
+}
 .banner-julia {
     background-image: url("../../assets-sobre/banner-julia.png");
     background-position: center;
@@ -110,6 +117,14 @@
         background-repeat: no-repeat;
         height: 10rem;
     }
+    .banner-creditos {
+        background-image: url("../../assets-sobre/creditos.png");
+        background-position: center;
+        background-size:cover;
+        background-color: var(--bg-color-about);
+        background-repeat: no-repeat;
+        height: 10rem;
+    }
     .banner-julia {
         background-image: url("../../assets-sobre/banner-julia.png");
         background-position: center;
@@ -180,6 +195,14 @@
 @media (max-width: 500px) {
     .banner-transcricao {
         background-image: url("../../assets-sobre/transcricao.png");
+        background-position: center;
+        background-size:cover;
+        background-color: var(--bg-color-about);
+        background-repeat: no-repeat;
+        height: 6rem;
+    }
+    .banner-creditos {
+        background-image: url("../../assets-sobre/creditos.png");
         background-position: center;
         background-size:cover;
         background-color: var(--bg-color-about);

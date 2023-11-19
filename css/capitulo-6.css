@@ -450,7 +450,9 @@
     .legenda{
         width: 300px;
     }
-    
+    #last {
+        margin-bottom: 50px;
+    }
     
 }
 @media (min-width:900px){
