@@ -9,6 +9,11 @@
     color: var(--font-color-light-black);
     padding: 4rem 2rem 2rem 0;
 }
+.ancor-to-personal-page {
+    text-decoration: underline;
+    font-weight: 400;
+    cursor: pointer;
+}
 .about__text {
     color: black;
     font-weight: 300;
