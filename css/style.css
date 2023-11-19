@@ -117,7 +117,7 @@ figcaption {
     flex-direction: row;
     justify-content: center;
     gap: 1rem;
-    right: -26%;
+    right: 32%;
     top: -55px;
 }
 .card-links img {
@@ -384,7 +384,7 @@ font-weight: 600;
     font-weight: 600;
     }
     .card-links{
-        right: -20%;
+        right: 30%;
     }
     
     .legenda{
@@ -438,7 +438,7 @@ font-weight: 600;
         flex-direction: row;
         justify-content: center;
         gap: 1rem;
-        right: -25%;
+        right: 30%;
         margin-bottom: 2rem;
         top:0;
     }
@@ -530,7 +530,6 @@ font-weight: 600;
         flex-direction: row;
         justify-content: center;
         gap: 1rem;
-        right: -25%;
     }
     .legenda{
         width: 350px;
