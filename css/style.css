@@ -229,23 +229,29 @@ figcaption {
     position: fixed;
     left: 95%;
     z-index: 2;
-    height: 580px;
+    height: 350px;
     display: none;
     background-color: rgba(173, 190, 255, 0.856);
     border-radius: 5px;
     padding: 20px;
-    gap: 1rem;
+    gap: 2rem;
+}
+.sidebar-nav{
+    display: flex;
+    flex-direction: column;
 }
 .sidebar-container{
     display: flex;
     flex-direction: column;
-    gap:2rem;
+    gap:1rem;
+    width: 250px;
 }
 .sidebar-items {
     font-size: 22px;
     font-family: var(--font-paragraph);
     text-align: center;
 }
+
 .sidebar-items:hover , .sidebar-items-capitulos:hover {
     opacity: 0.6;
     color:white;

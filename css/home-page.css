@@ -189,7 +189,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 180px;
 }
 .sidebar-title {
     margin-bottom: 25px;
@@ -198,13 +197,16 @@ body {
 }
 .sidebar-x {
     margin-bottom: 30px;
-    margin-left: 130%;
+    position: relative;
     text-align: right;
     font-size: 30px;
     font-weight: 400;
     width: 50px;
     cursor: pointer;
+    float: right;
     transition: opacity 1s;
+    top:-5px;
+    left: 62px;
 }
 .sidebar-x:hover {
     opacity: 0.8;
@@ -241,7 +243,6 @@ body {
         rgba(0, 0, 0, 0.979) 0%,
         rgba(0, 0, 0, 0.979) 96%
     );
-    height: 500px;
     transition: translate 0.8s ease-in-out;
     translate: -110%;
     width: 350px;
