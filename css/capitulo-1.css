@@ -278,7 +278,7 @@
 }
 
 #last{
-    margin-bottom: 90px;
+    margin-bottom: 120px;
 }
 @keyframes slidebg {
     to {
@@ -448,7 +448,7 @@
         padding: 0;
     }
     #last{
-        margin-bottom: 20px;
+        margin-bottom: 50px;
     }
 }
 @media (max-width: 600px){

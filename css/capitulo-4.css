@@ -413,6 +413,9 @@
     border-radius: 5px;
     transition: .5s;
 }
+#above-footer{
+    margin-bottom: 120px;
+}
 
 /* ######################## CARROSSEL ######################## */
 
@@ -475,9 +478,7 @@
         gap: 0rem;
         font-family: var(--font-paragraph);
     }
-    #above-footer{
-        margin-bottom: 150px;
-    }
+    
     .footer img {
         display: none;
         width: 80px;
@@ -639,9 +640,6 @@
         left: 36%;
         
     }
-    #above-footer{
-        margin-bottom: 90px;
-    }
 }
 
 @media (max-width: 450px){
@@ -663,7 +661,7 @@
         width: 300px;
     }
     #above-footer{
-        margin-bottom: 30px;
+        margin-bottom: 50px;
     }
     
 }

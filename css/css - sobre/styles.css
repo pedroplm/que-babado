@@ -7,6 +7,7 @@
     --font-color-light-black: #464646;
     --bg-color-about: rgb(252, 241, 229);
     --cursive-letter: "Mea Culpa", cursive;
+    --color-link: rgb(66, 92, 204);
 }
 ::-webkit-scrollbar{
     width: 0.5vw;
