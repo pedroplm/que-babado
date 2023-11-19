@@ -80,6 +80,7 @@ header {
     font-weight: 400;
 }
 .sidebar-x {
+    font-family: var(--font-paragraph);
     margin-bottom: 30px;
     position: relative;
     text-align: right;
@@ -90,10 +91,11 @@ header {
     float: right;
     transition: opacity 1s;
     top:-5px;
-    left: 55px;
+    left: 5px;
+    
 }
 .sidebar-x:hover {
-    opacity: 0.8;
+    opacity: 0.5;
 }
 .sidebar-items:hover{
     border-bottom: 2px solid white;
@@ -129,7 +131,7 @@ header {
     );
     transition: translate 0.8s ease-in-out;
     translate: -110%;
-    width: 300px;
+    width: 250px;
     color: white;
 }
 @media (max-width: 600px) {

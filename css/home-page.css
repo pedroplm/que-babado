@@ -187,6 +187,7 @@ body {
 }
 .sidebar{
     height: 320px;
+    width: 200px;
 }
 .sidebar-title-container{
     display: flex;
@@ -209,10 +210,10 @@ body {
     float: right;
     transition: opacity 1s;
     top:-5px;
-    left: 62px;
+    left: 10px;
 }
 .sidebar-x:hover {
-    opacity: 0.8;
+    opacity: 0.5;
 }
 .sidebar-items:hover{
     border-bottom: 2px solid white;
@@ -248,7 +249,7 @@ body {
     );
     transition: translate 0.8s ease-in-out;
     translate: -110%;
-    width: 350px;
+    width: 300px;
     color: white;
 }
 .rainbow-hover{
