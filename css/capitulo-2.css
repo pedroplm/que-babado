@@ -409,6 +409,17 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+.credito-capas{
+    font-family: var(--font-paragraph);
+    text-align: left;
+    font-size: 12px;
+    float: left;
+    position: relative;
+    z-index: -3;
+    bottom:-90px;
+    left: -32%;
+    color: white;
+}
 @media (max-width: 1024px) {
     .footer {
         width: 100%;
@@ -456,7 +467,17 @@
         
     }
     
-   
+    .credito-capas{
+        font-family: var(--font-paragraph);
+        text-align: left;
+        font-size: 12px;
+        float: left;
+        position: relative;
+        z-index: -3;
+        bottom:-90px;
+        left: -32%;
+        color: white;
+    }
     .buttons3{
         top: 22%;
     }
@@ -499,6 +520,17 @@
         text-align: center;
         gap: 0.5rem;
         font-size: 14px;
+    }
+    .credito-capas{
+        font-family: var(--font-paragraph);
+        text-align: left;
+        font-size: 12px;
+        float: left;
+        position: relative;
+        z-index: -3;
+        bottom:-120px;
+        left: -26%;
+        color: white;
     }
 }
 @media (max-width: 600px) {
@@ -547,6 +579,17 @@
     #last{
         margin-bottom: 0px;
     }
+    .credito-capas{
+        font-family: var(--font-paragraph);
+        text-align: left;
+        font-size: 12px;
+        float: left;
+        position: relative;
+        z-index: -3;
+        bottom:-120px;
+        left: -20%;
+        color: white;
+    }
 .list3 img{
         width:350px;
         padding: 2px;
@@ -560,6 +603,19 @@
     }
     
    
+}
+@media (max-width: 480px) {
+    .credito-capas{
+        font-family: var(--font-paragraph);
+        text-align: left;
+        font-size: 12px;
+        float: left;
+        position: relative;
+        z-index: -3;
+        bottom:-120px;
+        left: -12%;
+        color: white;
+    }
 }
 
 

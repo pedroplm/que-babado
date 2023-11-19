@@ -443,6 +443,17 @@
     margin-top: 0;
     padding-top: 0;
 }
+.credito-capas{
+    font-family: var(--font-paragraph);
+    text-align: left;
+    font-size: 12px;
+    float: left;
+    position: relative;
+    z-index: -3;
+    bottom:-90px;
+    left: -32%;
+    color: white;
+}
 
 @media (max-width: 1024px) {
     .footer {
@@ -571,6 +582,17 @@
         gap: 0.5rem;
         font-size: 14px;
     }
+    .credito-capas{
+        font-family: var(--font-paragraph);
+        text-align: left;
+        font-size: 12px;
+        float: left;
+        position: relative;
+        z-index: -3;
+        bottom:-120px;
+        left: -26%;
+        color: white;
+    }
 }
 @media (max-width: 600px) {
     .slider2{
@@ -656,6 +678,17 @@
     #last {
         margin-bottom: 20px;
     }
+    .credito-capas{
+        font-family: var(--font-paragraph);
+        text-align: left;
+        font-size: 12px;
+        float: left;
+        position: relative;
+        z-index: -3;
+        bottom:-120px;
+        left: -20%;
+        color: white;
+    }
 }
 @media (max-width: 450px){
     .capitulo{
@@ -677,6 +710,17 @@
     }
     .legenda{
         width: 300px;
+    }
+    .credito-capas{
+        font-family: var(--font-paragraph);
+        text-align: left;
+        font-size: 12px;
+        float: left;
+        position: relative;
+        z-index: -3;
+        bottom:-120px;
+        left: -12%;
+        color: white;
     }
     
     

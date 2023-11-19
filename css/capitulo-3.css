@@ -311,9 +311,30 @@ iframe {
     #above-footer{
         margin-bottom: 90px;
     }
+    .credito-capas{
+        font-family: var(--font-paragraph);
+        text-align: left;
+        font-size: 12px;
+        float: left;
+        position: relative;
+        z-index: -3;
+        bottom:-90px;
+        left: -32%;
+        color: white;
+    }
 }
 @media (max-width: 800px) {
-    
+    .credito-capas{
+        font-family: var(--font-paragraph);
+        text-align: left;
+        font-size: 12px;
+        float: left;
+        position: relative;
+        z-index: -3;
+        bottom:-120px;
+        left: -26%;
+        color: white;
+    }
     .footer {
         width: 100%;
         color: rgb(5, 5, 5);
@@ -402,6 +423,17 @@ iframe {
         left: 30%;
         
     }
+    .credito-capas{
+        font-family: var(--font-paragraph);
+        text-align: left;
+        font-size: 12px;
+        float: left;
+        position: relative;
+        z-index: -3;
+        bottom:-120px;
+        left: -20%;
+        color: white;
+    }
 }
 @media (max-width: 450px){
     .capitulo{
@@ -423,6 +455,17 @@ iframe {
     }
     .legenda{
         width: 300px;
+    }
+    .credito-capas{
+        font-family: var(--font-paragraph);
+        text-align: left;
+        font-size: 12px;
+        float: left;
+        position: relative;
+        z-index: -3;
+        bottom:-120px;
+        left: -12%;
+        color: white;
     }
     
     

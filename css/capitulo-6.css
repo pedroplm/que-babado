@@ -277,6 +277,18 @@
     margin-bottom: 90px;
 }
 
+.credito-capas{
+    font-family: var(--font-paragraph);
+    text-align: left;
+    font-size: 12px;
+    float: left;
+    position: relative;
+    z-index: -3;
+    bottom:-90px;
+    left: -12%;
+    color: white;
+}
+
 @media (max-width: 1024px) {
     .footer {
         width: 100%;
@@ -403,6 +415,17 @@
     }
     .container {
         padding: 0;
+    }
+    .credito-capas{
+        font-family: var(--font-paragraph);
+        text-align: left;
+        font-size: 12px;
+        float: left;
+        position: relative;
+        z-index: -3;
+        bottom:-140px;
+        left: 0;
+        color: white;
     }
     
 }
