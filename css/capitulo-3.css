@@ -497,7 +497,7 @@ iframe {
         display: flex;
         justify-content: space-around;
         /* hamburger menu especific COLORS*/
-        background-color: #dbdf04a4;
+        background-color: rgba(223, 201, 4, 0.9);
     }
     .sidebar-container-title{
         font-size: 24px;

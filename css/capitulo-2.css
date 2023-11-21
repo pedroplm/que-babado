@@ -644,7 +644,7 @@
         display: flex;
         justify-content: space-around;
         /* hamburger menu especific COLORS*/
-        background-color: rgb(253, 198, 147, 0.7);
+        background-color: rgb(253, 198, 147, 0.9);
     }
     .sidebar-container-title{
         font-size: 24px;
