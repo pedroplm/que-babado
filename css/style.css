@@ -263,6 +263,7 @@ figcaption {
     flex-direction: column;
     gap:1rem;
     width: 250px;
+    margin-bottom: 20px;
 }
 .sidebar-items {
     font-size: 22px;
