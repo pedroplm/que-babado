@@ -1,3 +1,14 @@
+document.getElementById('clipboardCopy').addEventListener('click', clipboardCopy);
+async function clipboardCopy() {
+  let text = window.location.href;
+  await navigator.clipboard.writeText(text);
+  document.getElementById('clipboardCopy').innerHTML = "<img src='https://img.icons8.com/?size=24&id=82713&format=png' alt='share' /> <span class = 'pop-share'>link copiado<span>";
+  sleep(800).then(() => {
+    document.getElementById('clipboardCopy').innerHTML = "<img src='https://img.icons8.com/?size=24&id=82713&format=png' alt='share' />";
+});
+}
+
+
 /* GALERIA DEPOIS DO FIM */
 let list5 = document.querySelector('.slider5 .list5');
 let items5 = document.querySelectorAll('.slider5 .list5 .item');
