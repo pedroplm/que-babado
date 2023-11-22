@@ -3,7 +3,7 @@ let legendaCapa = document.getElementById("legendaCapas");
 
 if (screenWidth >= 940){
     //DESKTOP
-    legendaCapa.innerHTML =  "Com design feito pelo já morto Micael Jacques, o Babado era conhecido por ousar em suas capas coloridas com fotos retiradas da internet sem autorização de homens, em sua maioria brancos, nus e seminus fazendo poses provocativas enquanto exibem seus corpos sarados"
+    legendaCapa.innerHTML =  "Com design feito pelo já morto Micael Jacques, o Babado era conhecido por ousar em suas capas coloridas com fotos retiradas da internet sem autorização de homens, em sua maioria brancos, nus e seminus, fazendo poses provocativas enquanto exibem seus corpos 'sarados'"
 
 }
 if (screenWidth < 940 && screenWidth > 600) {

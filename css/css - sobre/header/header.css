@@ -124,7 +124,6 @@ header {
     font-weight: 600;
 }
 .sidebar {
-    background-image: url(../../../assets/menu-background.png);
     transition: translate 0.8s ease-in-out;
     translate: -110%;
     width: 260px;
@@ -132,6 +131,8 @@ header {
     color: white;
     background-repeat: no-repeat;
     background-size: fit;
+    
+    background-color: black;
 }
 @media (max-width: 600px) {
     .header__nav-item img {

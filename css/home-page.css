@@ -243,11 +243,11 @@ body {
     font-weight: 600;
 }
 .sidebar {
-    background-image: url(../assets/menu-background.png);
     transition: translate 0.8s ease-in-out;
     translate: -110%;
     width: 300px;
     color: white;
+    background-color: black;
 }
 .rainbow-hover{
     border-bottom: 2px solid white;
