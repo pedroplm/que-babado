@@ -514,7 +514,6 @@ iframe {
         display: flex;
         flex-direction: column;
         gap:1.2rem;
-        margin-bottom: 2.5rem;
     }
     .sidebar-items {
         font-size: 24px;
