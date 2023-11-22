@@ -56,12 +56,6 @@
     font-weight: 400;
     color:#b11c5a;
 }
-.video-imprensa-gay{
-    border-radius: 10px;
-    margin-top: 2rem;
-    width: 69%;
-    height: 500px;
-}
 #last {
     margin-bottom: 150px;
 }
@@ -249,9 +243,6 @@
     .container {
         padding: 0;
     }
-    .video-imprensa-gay{
-        width: 60%;
-    }
 }
 @media (max-width: 450px){
     .capitulo{
@@ -273,10 +264,6 @@
     }
     .legenda{
         width: 300px;
-    }
-    .video-imprensa-gay{
-        width: 90%;
-        height: 300px;
     }
     
 }
