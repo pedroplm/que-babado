@@ -1,4 +1,16 @@
+document.getElementById('clipboardCopy').addEventListener('click', clipboardCopy);
+async function clipboardCopy() {
+  let text = window.location.href;
+  await navigator.clipboard.writeText(text);
+}
+
+
+
 //homepage
+
+
+
+
 function toggleMenu() {
     var menuBox = document.getElementById("menu-box");
     var menu = document.getElementById("menu");
