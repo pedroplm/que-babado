@@ -37,6 +37,11 @@
     height: 50px;
     background-color: black;
     color: white;
+    cursor: pointer;
+}
+.btn-enviar:hover{
+    background-color: rgba(0, 0, 0, 0.801);
+    color: rgba(255, 255, 255, 0.795);
 }
 
 @media (max-width: 500px) {
