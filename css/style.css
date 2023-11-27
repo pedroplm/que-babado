@@ -343,6 +343,7 @@ font-weight: 600;
 .videos {
     border-radius: 10px;
     margin-top: 2rem;
+    margin-bottom: 1.2rem;
     width: 69%;
     height: 500px;
 }
